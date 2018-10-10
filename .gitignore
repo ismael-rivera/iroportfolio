@@ -33,3 +33,7 @@
 
 #Compression Files
 *.zip
+
+#folders
+remove/
+xtras/
