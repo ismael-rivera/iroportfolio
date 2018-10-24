@@ -3,13 +3,40 @@
     .hameid-loader-overlay {
         width: 100%;
         height: 100%;
-        background: url('../img/preloaders.gif') center no-repeat #FFF;
+        background: url('../img/preloader2.gif') center no-repeat #FFF;
         z-index: 99999;
         position: fixed;
     }
 
 
 
+/*Menu*/
+#menu{
+
+}
+#menu li{
+ 
+}
+
+
+/*
+
+   _____           _   _                 
+  / ____|         | | (_)                
+ | (___   ___  ___| |_ _  ___  _ __  ___ 
+  \___ \ / _ \/ __| __| |/ _ \| '_ \/ __|
+  ____) |  __/ (__| |_| | (_) | | | \__ \
+ |_____/ \___|\___|\__|_|\___/|_| |_|___/
+                                         
+                                         
+
+
+*/
+
+
+
+
+/*`--------------------------------------*/
 #particles-js{
 	height: 200px;
 	width: 100%;
@@ -18,6 +45,11 @@
 .brdr{
 	border: 1px solid #fff;
 }
+
+#sct2{
+	padding: 50px 75px;
+}
+
 .grid-container-s2 {
   display: grid;
   height: 100%;
@@ -144,4 +176,75 @@ article {
   width: 100%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+/*Codepad animated logo*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #0f222b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.codepad-logo, 
+.codepad-logo::before, 
+.codepad-logo::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.codepad-logo {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  color: #3498db;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px #3498db;
+  transform: rotate(45deg);
+}
+
+.logo {
+    background: url("https://dl.dropboxusercontent.com/s/r0n3iyiuhub6j1t/test-fill-01.svg?dl=0") no-repeat 50%/70%;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+}
+
+.codepad-logo::before, 
+.codepad-logo::after {
+  content: '';
+  z-index: -1;
+  margin: -5%;
+  box-shadow: inset 0 0 0 2px;
+  border-radius: 6px;
+  animation: clipIt 8s linear infinite;
+}
+.codepad-logo::before {
+  animation-delay: -4s;
+}
+
+@keyframes clipIt {
+  0%, 100% { clip: rect(0px, 220px, 2px, 0px); }
+  25%      { clip: rect(0px, 2px, 220px, 0px); }
+  50%      { clip: rect(218px, 220px, 220px, 0px); }
+  75%      { clip: rect(0px, 220px, 220px, 218px); }
 }

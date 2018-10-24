@@ -7,7 +7,7 @@ Primary style
   box-sizing: border-box;
 }
 
-html {
+/*html {
   font-size: 62.5%;
 }
 
@@ -22,7 +22,7 @@ a {
   color: #7b9d6f;
   text-decoration: none;
 }
-
+*/
 /* -------------------------------- 
 
 Main Components 
@@ -405,4 +405,8 @@ Main Components
     -o-transform: translateX(0%);
     transform: translateX(0%);
   }
+}
+
+.round-circle{
+  border: 1px solid red;
 }
