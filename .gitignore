@@ -34,6 +34,21 @@
 #Compression Files
 *.zip
 
+
+#media files
+*.jpg
+*.png
+*.gif
+*.mp4
+*.mp3
+
+#editor files
+*.psd
+*.scss
+*.svg
+
 #folders
+.sass-cache/
+node_modules/
 remove/
 xtras/

@@ -8,17 +8,20 @@
   width: device-width;
 }
 
+/* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/bootstrap-grid.scss */
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
 
+/* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/bootstrap-grid.scss */
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
+/* line 6, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
 .container {
   width: 100%;
   padding-right: 15px;
@@ -28,29 +31,34 @@ html {
 }
 
 @media (min-width: 576px) {
+  /* line 6, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
   .container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
+  /* line 6, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
   .container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
+  /* line 6, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
   .container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
+  /* line 6, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
   .container {
     max-width: 1140px;
   }
 }
 
+/* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -59,26 +67,28 @@ html {
   margin-left: auto;
 }
 
+/* line 28, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
 .row {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
 
+/* line 34, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 }
 
+/* line 38, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/_grid.scss */
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
+/* line 8, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
@@ -92,1821 +102,1918 @@ html {
   padding-left: 15px;
 }
 
+/* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col {
-  -ms-flex-preferred-size: 0;
   flex-basis: 0;
-  -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
 }
 
+/* line 36, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-auto {
-  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: auto;
   max-width: none;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-1 {
-  -ms-flex: 0 0 8.333333%;
-  flex: 0 0 8.333333%;
-  max-width: 8.333333%;
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-2 {
-  -ms-flex: 0 0 16.666667%;
-  flex: 0 0 16.666667%;
-  max-width: 16.666667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-3 {
-  -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-4 {
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-5 {
-  -ms-flex: 0 0 41.666667%;
-  flex: 0 0 41.666667%;
-  max-width: 41.666667%;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-6 {
-  -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-7 {
-  -ms-flex: 0 0 58.333333%;
-  flex: 0 0 58.333333%;
-  max-width: 58.333333%;
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-8 {
-  -ms-flex: 0 0 66.666667%;
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-9 {
-  -ms-flex: 0 0 75%;
   flex: 0 0 75%;
   max-width: 75%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-10 {
-  -ms-flex: 0 0 83.333333%;
-  flex: 0 0 83.333333%;
-  max-width: 83.333333%;
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-11 {
-  -ms-flex: 0 0 91.666667%;
-  flex: 0 0 91.666667%;
-  max-width: 91.666667%;
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%;
 }
 
+/* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .col-12 {
-  -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
 }
 
+/* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-first {
-  -ms-flex-order: -1;
   order: -1;
 }
 
+/* line 50, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-last {
-  -ms-flex-order: 13;
   order: 13;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-0 {
-  -ms-flex-order: 0;
   order: 0;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-1 {
-  -ms-flex-order: 1;
   order: 1;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-2 {
-  -ms-flex-order: 2;
   order: 2;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-3 {
-  -ms-flex-order: 3;
   order: 3;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-4 {
-  -ms-flex-order: 4;
   order: 4;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-5 {
-  -ms-flex-order: 5;
   order: 5;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-6 {
-  -ms-flex-order: 6;
   order: 6;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-7 {
-  -ms-flex-order: 7;
   order: 7;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-8 {
-  -ms-flex-order: 8;
   order: 8;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-9 {
-  -ms-flex-order: 9;
   order: 9;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-10 {
-  -ms-flex-order: 10;
   order: 10;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-11 {
-  -ms-flex-order: 11;
   order: 11;
 }
 
+/* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .order-12 {
-  -ms-flex-order: 12;
   order: 12;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-1 {
-  margin-left: 8.333333%;
+  margin-left: 8.33333%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-2 {
-  margin-left: 16.666667%;
+  margin-left: 16.66667%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-3 {
   margin-left: 25%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-4 {
-  margin-left: 33.333333%;
+  margin-left: 33.33333%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-5 {
-  margin-left: 41.666667%;
+  margin-left: 41.66667%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-6 {
   margin-left: 50%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-7 {
-  margin-left: 58.333333%;
+  margin-left: 58.33333%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-8 {
-  margin-left: 66.666667%;
+  margin-left: 66.66667%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-9 {
   margin-left: 75%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-10 {
-  margin-left: 83.333333%;
+  margin-left: 83.33333%;
 }
 
+/* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
 .offset-11 {
-  margin-left: 91.666667%;
+  margin-left: 91.66667%;
 }
 
 @media (min-width: 576px) {
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm {
-    -ms-flex-preferred-size: 0;
     flex-basis: 0;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
   }
+  /* line 36, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-auto {
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: auto;
     max-width: none;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-3 {
-    -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-9 {
-    -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-sm-12 {
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-first {
-    -ms-flex-order: -1;
     order: -1;
   }
+  /* line 50, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-last {
-    -ms-flex-order: 13;
     order: 13;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-0 {
-    -ms-flex-order: 0;
     order: 0;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-1 {
-    -ms-flex-order: 1;
     order: 1;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-2 {
-    -ms-flex-order: 2;
     order: 2;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-3 {
-    -ms-flex-order: 3;
     order: 3;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-4 {
-    -ms-flex-order: 4;
     order: 4;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-5 {
-    -ms-flex-order: 5;
     order: 5;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-6 {
-    -ms-flex-order: 6;
     order: 6;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-7 {
-    -ms-flex-order: 7;
     order: 7;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-8 {
-    -ms-flex-order: 8;
     order: 8;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-9 {
-    -ms-flex-order: 9;
     order: 9;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-10 {
-    -ms-flex-order: 10;
     order: 10;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-11 {
-    -ms-flex-order: 11;
     order: 11;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-sm-12 {
-    -ms-flex-order: 12;
     order: 12;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-0 {
     margin-left: 0;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-1 {
-    margin-left: 8.333333%;
+    margin-left: 8.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-2 {
-    margin-left: 16.666667%;
+    margin-left: 16.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-3 {
     margin-left: 25%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-4 {
-    margin-left: 33.333333%;
+    margin-left: 33.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-5 {
-    margin-left: 41.666667%;
+    margin-left: 41.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-6 {
     margin-left: 50%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-7 {
-    margin-left: 58.333333%;
+    margin-left: 58.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-8 {
-    margin-left: 66.666667%;
+    margin-left: 66.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-9 {
     margin-left: 75%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-10 {
-    margin-left: 83.333333%;
+    margin-left: 83.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-sm-11 {
-    margin-left: 91.666667%;
+    margin-left: 91.66667%;
   }
 }
 
 @media (min-width: 768px) {
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md {
-    -ms-flex-preferred-size: 0;
     flex-basis: 0;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
   }
+  /* line 36, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-auto {
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: auto;
     max-width: none;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-3 {
-    -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-9 {
-    -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-md-12 {
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-first {
-    -ms-flex-order: -1;
     order: -1;
   }
+  /* line 50, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-last {
-    -ms-flex-order: 13;
     order: 13;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-0 {
-    -ms-flex-order: 0;
     order: 0;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-1 {
-    -ms-flex-order: 1;
     order: 1;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-2 {
-    -ms-flex-order: 2;
     order: 2;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-3 {
-    -ms-flex-order: 3;
     order: 3;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-4 {
-    -ms-flex-order: 4;
     order: 4;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-5 {
-    -ms-flex-order: 5;
     order: 5;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-6 {
-    -ms-flex-order: 6;
     order: 6;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-7 {
-    -ms-flex-order: 7;
     order: 7;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-8 {
-    -ms-flex-order: 8;
     order: 8;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-9 {
-    -ms-flex-order: 9;
     order: 9;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-10 {
-    -ms-flex-order: 10;
     order: 10;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-11 {
-    -ms-flex-order: 11;
     order: 11;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-md-12 {
-    -ms-flex-order: 12;
     order: 12;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-0 {
     margin-left: 0;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-1 {
-    margin-left: 8.333333%;
+    margin-left: 8.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-2 {
-    margin-left: 16.666667%;
+    margin-left: 16.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-3 {
     margin-left: 25%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-4 {
-    margin-left: 33.333333%;
+    margin-left: 33.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-5 {
-    margin-left: 41.666667%;
+    margin-left: 41.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-6 {
     margin-left: 50%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-7 {
-    margin-left: 58.333333%;
+    margin-left: 58.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-8 {
-    margin-left: 66.666667%;
+    margin-left: 66.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-9 {
     margin-left: 75%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-10 {
-    margin-left: 83.333333%;
+    margin-left: 83.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-md-11 {
-    margin-left: 91.666667%;
+    margin-left: 91.66667%;
   }
 }
 
 @media (min-width: 992px) {
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg {
-    -ms-flex-preferred-size: 0;
     flex-basis: 0;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
   }
+  /* line 36, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-auto {
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: auto;
     max-width: none;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-3 {
-    -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-9 {
-    -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-lg-12 {
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-first {
-    -ms-flex-order: -1;
     order: -1;
   }
+  /* line 50, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-last {
-    -ms-flex-order: 13;
     order: 13;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-0 {
-    -ms-flex-order: 0;
     order: 0;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-1 {
-    -ms-flex-order: 1;
     order: 1;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-2 {
-    -ms-flex-order: 2;
     order: 2;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-3 {
-    -ms-flex-order: 3;
     order: 3;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-4 {
-    -ms-flex-order: 4;
     order: 4;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-5 {
-    -ms-flex-order: 5;
     order: 5;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-6 {
-    -ms-flex-order: 6;
     order: 6;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-7 {
-    -ms-flex-order: 7;
     order: 7;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-8 {
-    -ms-flex-order: 8;
     order: 8;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-9 {
-    -ms-flex-order: 9;
     order: 9;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-10 {
-    -ms-flex-order: 10;
     order: 10;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-11 {
-    -ms-flex-order: 11;
     order: 11;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-lg-12 {
-    -ms-flex-order: 12;
     order: 12;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-0 {
     margin-left: 0;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-1 {
-    margin-left: 8.333333%;
+    margin-left: 8.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-2 {
-    margin-left: 16.666667%;
+    margin-left: 16.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-3 {
     margin-left: 25%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-4 {
-    margin-left: 33.333333%;
+    margin-left: 33.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-5 {
-    margin-left: 41.666667%;
+    margin-left: 41.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-6 {
     margin-left: 50%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-7 {
-    margin-left: 58.333333%;
+    margin-left: 58.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-8 {
-    margin-left: 66.666667%;
+    margin-left: 66.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-9 {
     margin-left: 75%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-10 {
-    margin-left: 83.333333%;
+    margin-left: 83.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-lg-11 {
-    margin-left: 91.666667%;
+    margin-left: 91.66667%;
   }
 }
 
 @media (min-width: 1200px) {
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl {
-    -ms-flex-preferred-size: 0;
     flex-basis: 0;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
   }
+  /* line 36, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-auto {
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: auto;
     max-width: none;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-3 {
-    -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-9 {
-    -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
   }
+  /* line 43, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .col-xl-12 {
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-first {
-    -ms-flex-order: -1;
     order: -1;
   }
+  /* line 50, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-last {
-    -ms-flex-order: 13;
     order: 13;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-0 {
-    -ms-flex-order: 0;
     order: 0;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-1 {
-    -ms-flex-order: 1;
     order: 1;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-2 {
-    -ms-flex-order: 2;
     order: 2;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-3 {
-    -ms-flex-order: 3;
     order: 3;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-4 {
-    -ms-flex-order: 4;
     order: 4;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-5 {
-    -ms-flex-order: 5;
     order: 5;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-6 {
-    -ms-flex-order: 6;
     order: 6;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-7 {
-    -ms-flex-order: 7;
     order: 7;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-8 {
-    -ms-flex-order: 8;
     order: 8;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-9 {
-    -ms-flex-order: 9;
     order: 9;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-10 {
-    -ms-flex-order: 10;
     order: 10;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-11 {
-    -ms-flex-order: 11;
     order: 11;
   }
+  /* line 53, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .order-xl-12 {
-    -ms-flex-order: 12;
     order: 12;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-0 {
     margin-left: 0;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-1 {
-    margin-left: 8.333333%;
+    margin-left: 8.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-2 {
-    margin-left: 16.666667%;
+    margin-left: 16.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-3 {
     margin-left: 25%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-4 {
-    margin-left: 33.333333%;
+    margin-left: 33.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-5 {
-    margin-left: 41.666667%;
+    margin-left: 41.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-6 {
     margin-left: 50%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-7 {
-    margin-left: 58.333333%;
+    margin-left: 58.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-8 {
-    margin-left: 66.666667%;
+    margin-left: 66.66667%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-9 {
     margin-left: 75%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-10 {
-    margin-left: 83.333333%;
+    margin-left: 83.33333%;
   }
+  /* line 59, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/mixins/_grid-framework.scss */
   .offset-xl-11 {
-    margin-left: 91.666667%;
+    margin-left: 91.66667%;
   }
 }
 
+/* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-none {
   display: none !important;
 }
 
+/* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-inline {
   display: inline !important;
 }
 
+/* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-inline-block {
   display: inline-block !important;
 }
 
+/* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-block {
   display: block !important;
 }
 
+/* line 15, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-table {
   display: table !important;
 }
 
+/* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-table-row {
   display: table-row !important;
 }
 
+/* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-table-cell {
   display: table-cell !important;
 }
 
+/* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-flex {
-  display: -ms-flexbox !important;
   display: flex !important;
 }
 
+/* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
 .d-inline-flex {
-  display: -ms-inline-flexbox !important;
   display: inline-flex !important;
 }
 
 @media (min-width: 576px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-none {
     display: none !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-inline {
     display: inline !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-inline-block {
     display: inline-block !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-block {
     display: block !important;
   }
+  /* line 15, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-table {
     display: table !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-table-row {
     display: table-row !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-table-cell {
     display: table-cell !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-flex {
-    display: -ms-flexbox !important;
     display: flex !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-sm-inline-flex {
-    display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
 }
 
 @media (min-width: 768px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-none {
     display: none !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-inline {
     display: inline !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-inline-block {
     display: inline-block !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-block {
     display: block !important;
   }
+  /* line 15, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-table {
     display: table !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-table-row {
     display: table-row !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-table-cell {
     display: table-cell !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-flex {
-    display: -ms-flexbox !important;
     display: flex !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-md-inline-flex {
-    display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
 }
 
 @media (min-width: 992px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-none {
     display: none !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-inline {
     display: inline !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-inline-block {
     display: inline-block !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-block {
     display: block !important;
   }
+  /* line 15, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-table {
     display: table !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-table-row {
     display: table-row !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-table-cell {
     display: table-cell !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-flex {
-    display: -ms-flexbox !important;
     display: flex !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-lg-inline-flex {
-    display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
 }
 
 @media (min-width: 1200px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-none {
     display: none !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-inline {
     display: inline !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-inline-block {
     display: inline-block !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-block {
     display: block !important;
   }
+  /* line 15, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-table {
     display: table !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-table-row {
     display: table-row !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-table-cell {
     display: table-cell !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-flex {
-    display: -ms-flexbox !important;
     display: flex !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-xl-inline-flex {
-    display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
 }
 
 @media print {
+  /* line 29, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-none {
     display: none !important;
   }
+  /* line 30, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-inline {
     display: inline !important;
   }
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-inline-block {
     display: inline-block !important;
   }
+  /* line 32, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-block {
     display: block !important;
   }
+  /* line 33, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-table {
     display: table !important;
   }
+  /* line 34, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-table-row {
     display: table-row !important;
   }
+  /* line 35, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-table-cell {
     display: table-cell !important;
   }
+  /* line 36, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-flex {
-    display: -ms-flexbox !important;
     display: flex !important;
   }
+  /* line 37, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_display.scss */
   .d-print-inline-flex {
-    display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
 }
 
+/* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-row {
-  -ms-flex-direction: row !important;
   flex-direction: row !important;
 }
 
+/* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-column {
-  -ms-flex-direction: column !important;
   flex-direction: column !important;
 }
 
+/* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-row-reverse {
-  -ms-flex-direction: row-reverse !important;
   flex-direction: row-reverse !important;
 }
 
+/* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-column-reverse {
-  -ms-flex-direction: column-reverse !important;
   flex-direction: column-reverse !important;
 }
 
+/* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-wrap {
-  -ms-flex-wrap: wrap !important;
   flex-wrap: wrap !important;
 }
 
+/* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-nowrap {
-  -ms-flex-wrap: nowrap !important;
   flex-wrap: nowrap !important;
 }
 
+/* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-wrap-reverse {
-  -ms-flex-wrap: wrap-reverse !important;
   flex-wrap: wrap-reverse !important;
 }
 
+/* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-fill {
-  -ms-flex: 1 1 auto !important;
   flex: 1 1 auto !important;
 }
 
+/* line 20, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-grow-0 {
-  -ms-flex-positive: 0 !important;
   flex-grow: 0 !important;
 }
 
+/* line 21, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-grow-1 {
-  -ms-flex-positive: 1 !important;
   flex-grow: 1 !important;
 }
 
+/* line 22, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-shrink-0 {
-  -ms-flex-negative: 0 !important;
   flex-shrink: 0 !important;
 }
 
+/* line 23, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .flex-shrink-1 {
-  -ms-flex-negative: 1 !important;
   flex-shrink: 1 !important;
 }
 
+/* line 25, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .justify-content-start {
-  -ms-flex-pack: start !important;
   justify-content: flex-start !important;
 }
 
+/* line 26, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .justify-content-end {
-  -ms-flex-pack: end !important;
   justify-content: flex-end !important;
 }
 
+/* line 27, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .justify-content-center {
-  -ms-flex-pack: center !important;
   justify-content: center !important;
 }
 
+/* line 28, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .justify-content-between {
-  -ms-flex-pack: justify !important;
   justify-content: space-between !important;
 }
 
+/* line 29, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .justify-content-around {
-  -ms-flex-pack: distribute !important;
   justify-content: space-around !important;
 }
 
+/* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-items-start {
-  -ms-flex-align: start !important;
   align-items: flex-start !important;
 }
 
+/* line 32, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-items-end {
-  -ms-flex-align: end !important;
   align-items: flex-end !important;
 }
 
+/* line 33, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-items-center {
-  -ms-flex-align: center !important;
   align-items: center !important;
 }
 
+/* line 34, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-items-baseline {
-  -ms-flex-align: baseline !important;
   align-items: baseline !important;
 }
 
+/* line 35, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-items-stretch {
-  -ms-flex-align: stretch !important;
   align-items: stretch !important;
 }
 
+/* line 37, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-content-start {
-  -ms-flex-line-pack: start !important;
   align-content: flex-start !important;
 }
 
+/* line 38, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-content-end {
-  -ms-flex-line-pack: end !important;
   align-content: flex-end !important;
 }
 
+/* line 39, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-content-center {
-  -ms-flex-line-pack: center !important;
   align-content: center !important;
 }
 
+/* line 40, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-content-between {
-  -ms-flex-line-pack: justify !important;
   align-content: space-between !important;
 }
 
+/* line 41, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-content-around {
-  -ms-flex-line-pack: distribute !important;
   align-content: space-around !important;
 }
 
+/* line 42, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-content-stretch {
-  -ms-flex-line-pack: stretch !important;
   align-content: stretch !important;
 }
 
+/* line 44, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-self-auto {
-  -ms-flex-item-align: auto !important;
   align-self: auto !important;
 }
 
+/* line 45, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-self-start {
-  -ms-flex-item-align: start !important;
   align-self: flex-start !important;
 }
 
+/* line 46, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-self-end {
-  -ms-flex-item-align: end !important;
   align-self: flex-end !important;
 }
 
+/* line 47, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-self-center {
-  -ms-flex-item-align: center !important;
   align-self: center !important;
 }
 
+/* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-self-baseline {
-  -ms-flex-item-align: baseline !important;
   align-self: baseline !important;
 }
 
+/* line 49, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
 .align-self-stretch {
-  -ms-flex-item-align: stretch !important;
   align-self: stretch !important;
 }
 
 @media (min-width: 576px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-row {
-    -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-column {
-    -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-row-reverse {
-    -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-column-reverse {
-    -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-wrap {
-    -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-nowrap {
-    -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-fill {
-    -ms-flex: 1 1 auto !important;
     flex: 1 1 auto !important;
   }
+  /* line 20, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-grow-0 {
-    -ms-flex-positive: 0 !important;
     flex-grow: 0 !important;
   }
+  /* line 21, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-grow-1 {
-    -ms-flex-positive: 1 !important;
     flex-grow: 1 !important;
   }
+  /* line 22, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-shrink-0 {
-    -ms-flex-negative: 0 !important;
     flex-shrink: 0 !important;
   }
+  /* line 23, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-sm-shrink-1 {
-    -ms-flex-negative: 1 !important;
     flex-shrink: 1 !important;
   }
+  /* line 25, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-sm-start {
-    -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
+  /* line 26, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-sm-end {
-    -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
+  /* line 27, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-sm-center {
-    -ms-flex-pack: center !important;
     justify-content: center !important;
   }
+  /* line 28, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-sm-between {
-    -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
+  /* line 29, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-sm-around {
-    -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-sm-start {
-    -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
+  /* line 32, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-sm-end {
-    -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
+  /* line 33, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-sm-center {
-    -ms-flex-align: center !important;
     align-items: center !important;
   }
+  /* line 34, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-sm-baseline {
-    -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
+  /* line 35, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-sm-stretch {
-    -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
+  /* line 37, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-sm-start {
-    -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
+  /* line 38, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-sm-end {
-    -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
+  /* line 39, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-sm-center {
-    -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
+  /* line 40, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-sm-between {
-    -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
+  /* line 41, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-sm-around {
-    -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
+  /* line 42, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-sm-stretch {
-    -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
+  /* line 44, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-sm-auto {
-    -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
+  /* line 45, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-sm-start {
-    -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
+  /* line 46, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-sm-end {
-    -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
+  /* line 47, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-sm-center {
-    -ms-flex-item-align: center !important;
     align-self: center !important;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-sm-baseline {
-    -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
+  /* line 49, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-sm-stretch {
-    -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
   }
 }
 
 @media (min-width: 768px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-row {
-    -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-column {
-    -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-row-reverse {
-    -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-column-reverse {
-    -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-wrap {
-    -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-nowrap {
-    -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-fill {
-    -ms-flex: 1 1 auto !important;
     flex: 1 1 auto !important;
   }
+  /* line 20, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-grow-0 {
-    -ms-flex-positive: 0 !important;
     flex-grow: 0 !important;
   }
+  /* line 21, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-grow-1 {
-    -ms-flex-positive: 1 !important;
     flex-grow: 1 !important;
   }
+  /* line 22, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-shrink-0 {
-    -ms-flex-negative: 0 !important;
     flex-shrink: 0 !important;
   }
+  /* line 23, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-md-shrink-1 {
-    -ms-flex-negative: 1 !important;
     flex-shrink: 1 !important;
   }
+  /* line 25, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-md-start {
-    -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
+  /* line 26, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-md-end {
-    -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
+  /* line 27, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-md-center {
-    -ms-flex-pack: center !important;
     justify-content: center !important;
   }
+  /* line 28, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-md-between {
-    -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
+  /* line 29, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-md-around {
-    -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-md-start {
-    -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
+  /* line 32, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-md-end {
-    -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
+  /* line 33, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-md-center {
-    -ms-flex-align: center !important;
     align-items: center !important;
   }
+  /* line 34, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-md-baseline {
-    -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
+  /* line 35, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-md-stretch {
-    -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
+  /* line 37, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-md-start {
-    -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
+  /* line 38, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-md-end {
-    -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
+  /* line 39, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-md-center {
-    -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
+  /* line 40, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-md-between {
-    -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
+  /* line 41, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-md-around {
-    -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
+  /* line 42, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-md-stretch {
-    -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
+  /* line 44, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-md-auto {
-    -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
+  /* line 45, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-md-start {
-    -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
+  /* line 46, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-md-end {
-    -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
+  /* line 47, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-md-center {
-    -ms-flex-item-align: center !important;
     align-self: center !important;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-md-baseline {
-    -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
+  /* line 49, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-md-stretch {
-    -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
   }
 }
 
 @media (min-width: 992px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-row {
-    -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-column {
-    -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-row-reverse {
-    -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-column-reverse {
-    -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-wrap {
-    -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-nowrap {
-    -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-fill {
-    -ms-flex: 1 1 auto !important;
     flex: 1 1 auto !important;
   }
+  /* line 20, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-grow-0 {
-    -ms-flex-positive: 0 !important;
     flex-grow: 0 !important;
   }
+  /* line 21, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-grow-1 {
-    -ms-flex-positive: 1 !important;
     flex-grow: 1 !important;
   }
+  /* line 22, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-shrink-0 {
-    -ms-flex-negative: 0 !important;
     flex-shrink: 0 !important;
   }
+  /* line 23, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-lg-shrink-1 {
-    -ms-flex-negative: 1 !important;
     flex-shrink: 1 !important;
   }
+  /* line 25, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-lg-start {
-    -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
+  /* line 26, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-lg-end {
-    -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
+  /* line 27, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-lg-center {
-    -ms-flex-pack: center !important;
     justify-content: center !important;
   }
+  /* line 28, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-lg-between {
-    -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
+  /* line 29, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-lg-around {
-    -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-lg-start {
-    -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
+  /* line 32, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-lg-end {
-    -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
+  /* line 33, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-lg-center {
-    -ms-flex-align: center !important;
     align-items: center !important;
   }
+  /* line 34, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-lg-baseline {
-    -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
+  /* line 35, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-lg-stretch {
-    -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
+  /* line 37, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-lg-start {
-    -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
+  /* line 38, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-lg-end {
-    -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
+  /* line 39, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-lg-center {
-    -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
+  /* line 40, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-lg-between {
-    -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
+  /* line 41, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-lg-around {
-    -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
+  /* line 42, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-lg-stretch {
-    -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
+  /* line 44, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-lg-auto {
-    -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
+  /* line 45, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-lg-start {
-    -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
+  /* line 46, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-lg-end {
-    -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
+  /* line 47, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-lg-center {
-    -ms-flex-item-align: center !important;
     align-self: center !important;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-lg-baseline {
-    -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
+  /* line 49, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-lg-stretch {
-    -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
   }
 }
 
 @media (min-width: 1200px) {
+  /* line 11, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-row {
-    -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
+  /* line 12, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-column {
-    -ms-flex-direction: column !important;
     flex-direction: column !important;
   }
+  /* line 13, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-row-reverse {
-    -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
   }
+  /* line 14, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-column-reverse {
-    -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
   }
+  /* line 16, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-wrap {
-    -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
+  /* line 17, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-nowrap {
-    -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important;
   }
+  /* line 18, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse !important;
     flex-wrap: wrap-reverse !important;
   }
+  /* line 19, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-fill {
-    -ms-flex: 1 1 auto !important;
     flex: 1 1 auto !important;
   }
+  /* line 20, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-grow-0 {
-    -ms-flex-positive: 0 !important;
     flex-grow: 0 !important;
   }
+  /* line 21, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-grow-1 {
-    -ms-flex-positive: 1 !important;
     flex-grow: 1 !important;
   }
+  /* line 22, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-shrink-0 {
-    -ms-flex-negative: 0 !important;
     flex-shrink: 0 !important;
   }
+  /* line 23, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .flex-xl-shrink-1 {
-    -ms-flex-negative: 1 !important;
     flex-shrink: 1 !important;
   }
+  /* line 25, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-xl-start {
-    -ms-flex-pack: start !important;
     justify-content: flex-start !important;
   }
+  /* line 26, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-xl-end {
-    -ms-flex-pack: end !important;
     justify-content: flex-end !important;
   }
+  /* line 27, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-xl-center {
-    -ms-flex-pack: center !important;
     justify-content: center !important;
   }
+  /* line 28, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-xl-between {
-    -ms-flex-pack: justify !important;
     justify-content: space-between !important;
   }
+  /* line 29, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .justify-content-xl-around {
-    -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
+  /* line 31, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-xl-start {
-    -ms-flex-align: start !important;
     align-items: flex-start !important;
   }
+  /* line 32, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-xl-end {
-    -ms-flex-align: end !important;
     align-items: flex-end !important;
   }
+  /* line 33, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-xl-center {
-    -ms-flex-align: center !important;
     align-items: center !important;
   }
+  /* line 34, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-xl-baseline {
-    -ms-flex-align: baseline !important;
     align-items: baseline !important;
   }
+  /* line 35, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-items-xl-stretch {
-    -ms-flex-align: stretch !important;
     align-items: stretch !important;
   }
+  /* line 37, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-xl-start {
-    -ms-flex-line-pack: start !important;
     align-content: flex-start !important;
   }
+  /* line 38, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-xl-end {
-    -ms-flex-line-pack: end !important;
     align-content: flex-end !important;
   }
+  /* line 39, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-xl-center {
-    -ms-flex-line-pack: center !important;
     align-content: center !important;
   }
+  /* line 40, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-xl-between {
-    -ms-flex-line-pack: justify !important;
     align-content: space-between !important;
   }
+  /* line 41, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-xl-around {
-    -ms-flex-line-pack: distribute !important;
     align-content: space-around !important;
   }
+  /* line 42, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-content-xl-stretch {
-    -ms-flex-line-pack: stretch !important;
     align-content: stretch !important;
   }
+  /* line 44, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-xl-auto {
-    -ms-flex-item-align: auto !important;
     align-self: auto !important;
   }
+  /* line 45, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-xl-start {
-    -ms-flex-item-align: start !important;
     align-self: flex-start !important;
   }
+  /* line 46, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-xl-end {
-    -ms-flex-item-align: end !important;
     align-self: flex-end !important;
   }
+  /* line 47, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-xl-center {
-    -ms-flex-item-align: center !important;
     align-self: center !important;
   }
+  /* line 48, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-xl-baseline {
-    -ms-flex-item-align: baseline !important;
     align-self: baseline !important;
   }
+  /* line 49, D:/Ismael Rivera/Projects/Portfolio/iroportfolio2018/inc/scss/utilities/_flex.scss */
   .align-self-xl-stretch {
-    -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
   }
 }
-/*# sourceMappingURL=bootstrap-grid.css.map */
+
+/*# sourceMappingURL=../css/bootstrap-grid.map */

@@ -3,7 +3,7 @@
     .hameid-loader-overlay {
         width: 100%;
         height: 100%;
-        background: url('../img/preloader2.gif') center no-repeat #FFF;
+        background: url('../img/preloader.gif') center no-repeat #262626;
         z-index: 99999;
         position: fixed;
     }
@@ -29,11 +29,62 @@
  |_____/ \___|\___|\__|_|\___/|_| |_|___/
                                          
                                          
-
+Plus fixed Menu with id #s-scroll
 
 */
 
+#s-scroll{
+  position: fixed; 
+  top: 200; 
+  right: 0;
+  border: 1px solid green;
+  z-index: 99;
+}
+#s-scroll a{
+  padding: 0px 10px;
+}
+#s1{
+  background: #262626;
+}
+#s2{
+  background: #262626;
+}
+#s3{
+  background: #EAEADF;
+  padding: 50px 0px;
+}
+#s4{
+  background: #262626;
+  padding: 50px 0px;
+}
+#s5{
+  background: #262626;
+  padding: 50px 0px;
+}
+#s6{
+  background: #EAEADF;
+  padding: 50px 0px;
+}
+#s7{
+  background: #262626;
+  padding: 50px 0px;
+}
+#s8{
+  background: #262626;
+  padding: 50px 0px;
+}
 
+
+/*SUB-SECTIONS*/
+#footer-menu{
+  padding: 0px 0px 50px 0px;
+}
+#footer-menu li{
+  margin: 20px 0px;
+}
+#footer-menu h3{
+  margin: 30px 0px;
+}
 
 
 /*`--------------------------------------*/
