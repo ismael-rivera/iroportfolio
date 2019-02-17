@@ -47,6 +47,12 @@
 *.scss
 *.svg
 
+#other files
+*.pdf
+*.DS_Store
+
+
+
 #folders
 .sass-cache/
 node_modules/
