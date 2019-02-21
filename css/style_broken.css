@@ -944,7 +944,7 @@ pre {
   .order-md-last {
     -webkit-box-ordinal-group: 14;
     -ms-flex-order: 13;
-    order: 13; }
+    /*order: 13; }*/
   .order-md-0 {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
@@ -7506,6 +7506,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
 	width: 50%;
+    /*width: 100%;*/
     content: '';
     background: #000;
     opacity: 1;
@@ -7525,9 +7526,9 @@ h1, h2, h3, h4, h5,
     width: 100%;
     content: '';
 	background: #000;
-	/* Change slider presentation opacity to 0
-for no background */
-    opacity: 0;	
+    opacity: 1;
+    /*background: #fff;
+    opacity: 0;*/
     z-index: -1; }
 
   .hero-wrap .slider-text {
@@ -8492,7 +8493,8 @@ textarea.form-control {
       position: absolute;
       top: 0;
       width: 5px;
-      height: 0px;
+	  height: 22px;
+      /*height: 0px;*/
       content: '';
       background: rgba(255, 255, 255, 0.9);
       background: #ff0055;
@@ -8527,7 +8529,8 @@ textarea.form-control {
         top: 2px;
         left: -16px;
         width: 5px;
-        height: 0px;
+		height: 18px;
+        /*height: 0px;*/
         content: '';
         background: rgba(255, 255, 255, 0.9);
         background: #ff0055;
@@ -8561,7 +8564,8 @@ textarea.form-control {
         top: 2px;
         right: -16px;
         width: 5px;
-        height: 0px;
+		height: 18px;
+        /*height: 0px;*/
         content: '';
         background: rgba(255, 255, 255, 0.9);
         background: #ff0055;

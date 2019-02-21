@@ -50,9 +50,10 @@ require_once(__ROOT__.'/iroportfolio/header.php');
           </div>
         </div>
         <div class="row justify-content-center mb-5">
-          <div class="col-md-6 heading-section text-center ftco-animate">
-            <div style="background-image: url(images/proskills.png); height: 526px; width: 742px"></div>
+          <div class="col-md-8 heading-section text-center ftco-animate">
+            <div style="background-image: url(images/proskills.png); background-position: center; background-repeat: no-repeat; height: 426px; width: 100%px;"></div>
           </div>
+        </div><div class="row justify-content-center mb-5">
           <div class="col-md-6 py-5">
             <div class="program d-flex ftco-animate">
               <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
@@ -72,6 +73,17 @@ require_once(__ROOT__.'/iroportfolio/header.php');
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
               </div>
             </div>
+            <div class="program d-flex ftco-animate">
+              <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
+                <span class="flaticon-gym"></span>
+              </div>
+              <div class="text ml-5 mr-lg-4 text-lg-right">
+                <h3>Web/App Development</h3>
+                <p>I am a creative, passionate, and dedicated Web Application Developer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 py-5">
             <div class="program d-flex ftco-animate">
               <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
                 <span class="flaticon-workout"></span>

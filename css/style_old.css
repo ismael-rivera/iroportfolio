@@ -62,7 +62,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #101818; }
+  background-color: #fff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7269,7 +7269,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Work Sans", Arial, sans-serif;
-  background: #101818;
+  background: #000;
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
@@ -7321,7 +7321,7 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    /*font-size: 13px;*/
+    font-size: 13px;
     padding-top: .7rem;
     padding-bottom: .7rem;
     padding-left: 0;
@@ -7505,7 +7505,7 @@ h1, h2, h3, h4, h5,
     top: 0;
     right: 0;
     bottom: 0;
-	width: 50%;
+    width: 50%;
     content: '';
     background: #000;
     opacity: 1;
@@ -7516,7 +7516,6 @@ h1, h2, h3, h4, h5,
     @media (max-width: 1199.98px) {
       .hero-wrap .overlay {
         background-position: center center !important; } }
-
   .hero-wrap:after {
     position: absolute;
     top: 0;
@@ -7524,12 +7523,9 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     width: 100%;
     content: '';
-	background: #000;
-	/* Change slider presentation opacity to 0
-for no background */
-    opacity: 0;	
+    background: #000;
+    opacity: 1;
     z-index: -1; }
-
   .hero-wrap .slider-text {
     color: #fff; }
     .hero-wrap .slider-text h3.v {
@@ -8492,7 +8488,7 @@ textarea.form-control {
       position: absolute;
       top: 0;
       width: 5px;
-      height: 0px;
+      height: 22px;
       content: '';
       background: rgba(255, 255, 255, 0.9);
       background: #ff0055;
@@ -8527,7 +8523,7 @@ textarea.form-control {
         top: 2px;
         left: -16px;
         width: 5px;
-        height: 0px;
+        height: 18px;
         content: '';
         background: rgba(255, 255, 255, 0.9);
         background: #ff0055;
@@ -8561,7 +8557,7 @@ textarea.form-control {
         top: 2px;
         right: -16px;
         width: 5px;
-        height: 0px;
+        height: 18px;
         content: '';
         background: rgba(255, 255, 255, 0.9);
         background: #ff0055;

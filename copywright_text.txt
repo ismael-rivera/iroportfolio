@@ -1,0 +1,113 @@
+
+15 years Experienced Web Developer AND Skilled Graphic Designer 
+
+I am a highly motivated full stack developer who can do both concept and execution. What you would call a designer/developer hybrid. Of course, I can only do this on certain specific sized projects, as both aspects of this work require their own set of timetable and deliverables.  
+
+I can work on the graphics side of your website and/or also on the backend logic side. With plenty of work experience in PHP, MYSQL, LAMP STACK, CSS/HTML, JAVASCRIPT, C#, and Python. This includes Debugging, server-side scripting, writing application code and, some pen-testing (cybersecurity is NOT my specialty, but I do okay with securing Wordpress). 
+
+PDPs' I AM MOST PROFICIENT WITH:
+object-oriented design(OOP) and/or model-view-controller(MVC). 
+
+FRAMEWORKS I AM MOST PROFICIENT IN:
+- Wordpress - Theme development, Woothemes, plugin development; also enterprise level network retrofitting
+- Node.js - Mission-critical endpoints and systems including microservices (have done this with Wordpress)
+- Vagrant - machines(only Linux and core-os)
+- Dockerized server (No experience yet with Kubernetes or swarms. Sorry, I am not a dev-ops).
+- Codeigniter - Lots of experience with Codeigniter. Of course, all projects are their own thing. Whenever I have the option, I tend to work with whatever composer components fit best the project (i.e. Symphony, Zend or anything that is modular). 
+- Bootstrap with Jquery
+
+FOR UI/UX I USE:
+- Vue.js (similar to REACT, only much, much better)
+- Handlebars 
+
+FAVORITE VERSIONING AND PREPROCESSORS
+- Github
+- Gulp
+- GruntJs
+- SASS - Compact 
+
+That has been my work experience for the past 15 years. My formal educational background is in Graphic Design. I have a 4 years Bachelor's Degree in Digital Graphic Arts and Web Design. 
+
+Both the degree and my experience in the workforce have taught me things like: 
+- High-Level Creative thinking which involves the ability to draft ideas on the fly and generate solutions for promoting your company’s mission and products
+- Web application imagery, flow, and function.
+- UI/UX design for guiding your visitors and other things that help with: calls to action, heatmap progression fields, attention deficit management, and A/B testing.
+
+DESIGN APPLICATIONS I AM MOST PROFICIENT WITH:
+Adobe(Photoshop, Illustrator, After Effects, InDesign, Fireworks, Muse)
+Cinema 4d, Maya, 3d Studio Max (If it is for remote work, I currently only work with Cinema 4d)  
+   
+Some of my Graphic Design work has been featured on Caras magazine, The Robb Report, Miami Herald and outside on the Las Vegas strip. As I stated before, I have been doing this for 15 years.
+
+Btw, if you got this far, Thank you for your time and for reading this. In this day and age, selling your products the right way involves creativity, problem-solving skills, technical know-how, and the ability to market yourself socially. I hope you and your company will allow me to be a part of that journey. 
+
+  
+
+
+-----------------------------------------------------------------
+
+This was more of a design-centric degree but covered a lot of basic programming with python for scripting 3d applications 
+
+Graphic design, communication design, involves working with and producing images and text. 
+There are a variety of jobs that require graphic design skills. 
+These range from jobs in advertising to animation 
+to printmaking to production design.
+Communication
+Graphic designers communicate ideas through text and image. Therefore, communication skills are critical to the job. However, communication is important in graphic design in other ways too. Graphic designers have to articulate ideas to companies, clients, employers, etc. It requires strong public speaking skills for presentations and writing skills for proposals. Designers also have to be able to communicate with clients and employers by phone, email, and sometimes through Skype. Graphic designers must listen to their clients’ needs and convey persuasive solutions.
+
+In all of these ways, communication is critical when trying to land a project.
+
+
+High Level Creative thinker 
+Ability to draft ideas on the fly 
+and generate solutions 
+expert at promoting your company’s mission and product through website, design, and imagery 
+selling your product the right way involves creativity, 
+problem-solving skills.
+
+
+Technology
+Graphic designers have to master various forms of technology in today’s world. Firstly, they need to be comfortable with design software, such as Quark, InDesign, and Adobe. This software is used by many companies to produce digital prints.
+
+web design. fluent in multiple programming languages (including HTML and CSS) 
+
+as well as web design content management system platforms, such as Wordpress.      
+
+Time Management
+Most graphic designers are constantly juggling multiple projects at once. 
+strong time management skills. 
+ability to multitask, 
+juggle multiple assignments over long periods, 
+meet all established deadlines.
+
+Typography
+to develop legible, well-designed type. 
+familiarity with working with fonts on web, print, video and or digital medias
+knowledge of line-height and tracking.
+
+Typography is not the only important and more traditional graphic design skill. For example, a knowledge of color theory, layouts, and contrast. 
+
+
+-----------------------------------------------------------------------------
+
+Web Developer
+
+
+Proficient in HTML, CSS, Server-Scripting, 
+Experience with SEO
+Knowledgeable in Online Advertising
+Expert in LAMP Web Service Stacks
+Experience Teaching Web Development
+
+LAMP development, working with command lines, writing modules, version control systems, continuous integration, DevOps practices, responsive design, agile software development, front-end systems, debugging, server-side scripting, writing application code, and object-oriented design.
+
+
+----------------------------------------------------------------------------
+
+My job was to find, manage and hire people to maintain new, pre-existing and recurring accounts for our main exclusive clients: IDS Gold Coast(Australia).
+I was in charge of designing and developing their new website and designing the website of every client that IDS brought in. 
+
+Constructed a SaaS toggle system in Unix to support error reporting within Wordpress. Maintained Linux systems and endpoints for the purposes of security administration for ITS Sinos (IDS's offices in Sau Paulo, previously in Sao Leopoldo). Was in charge of Full Account Management: handled entire NonSCRUM Process(today know as KANBAN) from design to code implementation, including graphics and media. 
+
+Helped Develop several plugin tools for Wordpress: end-to-end P2 connections(this was before Node.js and NoSQL became popular). Reprogrammed Java endpoints receiving data from SEO Marginal plugin and an API that interfaced between new Sao Paulo offices and old ITS Sinos. Developed Wordpress and Codeigniter sites via a Ci spark acting as an Intra-Router to send back the data as both JSON and XML.
+
