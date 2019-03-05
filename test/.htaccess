@@ -1,0 +1,39 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/(404|index|main|new|old).html
+RewriteRule ^.*$ /404.html [R=301]
+
+ErrorDocument 500 "Houston, we have a problem."
+ErrorDocument 401 http://error.example.com/mordor.html
+ErrorDocument 404 /errors/halflife3.html
+
+RewriteEngine on
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# Note: It’s also recommended to enable HTTP Strict Transport Security (HSTS)
+# on your HTTPS website to help prevent man-in-the-middle attacks.
+# See https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security
+<IfModule mod_headers.c>
+    # Remove "includeSubDomains" if you don't want to enforce HSTS on all subdomains
+    Header always set Strict-Transport-Security "max-age=31536000;includeSubDomains"
+</IfModule>
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+## Apache 2.2
+Order deny,allow
+# Deny from xxx.xxx.xxx.xxx
+# Deny from xxx.xxx.xxx.xxy
+
+## Apache 2.4
+# Require all granted
+# Require not ip xxx.xxx.xxx.xxx
+# Require not ip xxx.xxx.xxx.xxy
+
+# Disable Internet Explorer Compatibility View
+<IfModule mod_headers.c>
+    BrowserMatch MSIE is-msie
+    Header set X-UA-Compatible IE=edge env=is-msie
+</IfModule>

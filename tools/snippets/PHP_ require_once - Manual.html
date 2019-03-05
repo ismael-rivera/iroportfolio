@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://php.net/manual/en/function.require-once.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="js flexbox flexboxlegacy datauri gr__php_net"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PHP: require_once - Manual </title>
+
+ <link rel="shortcut icon" href="http://php.net/favicon.ico">
+ <link rel="search" type="application/opensearchdescription+xml" href="http://php.net/phpnetimprovedsearch.src" title="Add PHP.net search">
+ <link rel="alternate" type="application/atom+xml" href="http://php.net/releases/feed.php" title="PHP Release feed">
+ <link rel="alternate" type="application/atom+xml" href="http://php.net/feed.atom" title="PHP: Hypertext Preprocessor">
+
+ <link rel="canonical" href="http://php.net/manual/en/function.require-once.php">
+ <link rel="shorturl" href="http://php.net/require-once">
+ <link rel="alternate" href="http://php.net/require-once" hreflang="x-default">
+
+ <link rel="contents" href="http://php.net/manual/en/index.php">
+ <link rel="index" href="http://php.net/manual/en/language.control-structures.php">
+ <link rel="prev" href="http://php.net/manual/en/function.include.php">
+ <link rel="next" href="http://php.net/manual/en/function.include-once.php">
+
+ <link rel="alternate" href="http://php.net/manual/en/function.require-once.php" hreflang="en">
+ <link rel="alternate" href="http://php.net/manual/pt_BR/function.require-once.php" hreflang="pt_BR">
+ <link rel="alternate" href="http://php.net/manual/zh/function.require-once.php" hreflang="zh">
+ <link rel="alternate" href="http://php.net/manual/fr/function.require-once.php" hreflang="fr">
+ <link rel="alternate" href="http://php.net/manual/de/function.require-once.php" hreflang="de">
+ <link rel="alternate" href="http://php.net/manual/ja/function.require-once.php" hreflang="ja">
+ <link rel="alternate" href="http://php.net/manual/ro/function.require-once.php" hreflang="ro">
+ <link rel="alternate" href="http://php.net/manual/ru/function.require-once.php" hreflang="ru">
+ <link rel="alternate" href="http://php.net/manual/es/function.require-once.php" hreflang="es">
+ <link rel="alternate" href="http://php.net/manual/tr/function.require-once.php" hreflang="tr">
+
+<link rel="stylesheet" type="text/css" href="./PHP_ require_once - Manual_files/cached.php" media="screen">
+<link rel="stylesheet" type="text/css" href="./PHP_ require_once - Manual_files/cached(1).php" media="screen">
+<link rel="stylesheet" type="text/css" href="./PHP_ require_once - Manual_files/cached(2).php" media="screen">
+<link rel="stylesheet" type="text/css" href="./PHP_ require_once - Manual_files/cached(3).php" media="screen">
+
+ <!--[if lte IE 7]>
+ <link rel="stylesheet" type="text/css" href="http://php.net/styles/workarounds.ie7.css" media="screen">
+ <![endif]-->
+
+ <!--[if lte IE 8]>
+ <script>
+  window.brokenIE = true;
+ </script>
+ <![endif]-->
+
+ <!--[if lte IE 9]>
+ <link rel="stylesheet" type="text/css" href="http://php.net/styles/workarounds.ie9.css" media="screen">
+ <![endif]-->
+
+ <!--[if IE]>
+ <script src="http://php.net/js/ext/html5.js"></script>
+ <![endif]-->
+
+ <!--<base href="http://php.net/manual/en/function.require-once.php">--><base href=".">
+
+</head>
+<body class="docs " data-gr-c-s-loaded="true" style="">
+
+<nav id="head-nav" class="navbar navbar-fixed-top">
+  <div class="navbar-inner clearfix">
+    <a href="http://php.net/" class="brand"><img src="./PHP_ require_once - Manual_files/php-logo.svg" width="48" height="24" alt="php"></a>
+    <div id="mainmenu-toggle-overlay"></div>
+    <input type="checkbox" id="mainmenu-toggle">
+    <ul class="nav">
+      <li class=""><a href="http://php.net/downloads">Downloads</a></li>
+      <li class="active"><a href="http://php.net/docs.php">Documentation</a></li>
+      <li class=""><a href="http://php.net/get-involved">Get Involved</a></li>
+      <li class=""><a href="http://php.net/support">Help</a></li>
+    </ul>
+    <form class="navbar-search" id="topsearch" action="http://php.net/search.php">
+      <input type="hidden" name="show" value="quickref">
+      <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="tt-hint search-query" type="text" autocomplete="off" spellcheck="off" disabled="" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="search" name="pattern" class="search-query tt-query" placeholder="Search" accesskey="s" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><input type="submit" style="visibility: hidden; position: fixed"><span style="position: absolute; left: -9999px; visibility: hidden; white-space: nowrap; font-family: &quot;Fira Sans&quot;, &quot;Source Sans Pro&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></span><span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"></span></span>
+    </form>
+  </div>
+  <div id="flash-message"></div>
+</nav>
+<div class="headsup"><a href="http://php.net/conferences/index.php#id2019-02-07-3">PHP.Barcelona 2019</a></div>
+<nav id="trick"><div><dl>
+<dt><a href="http://php.net/manual/en/getting-started.php">Getting Started</a></dt>
+	<dd><a href="http://php.net/manual/en/introduction.php">Introduction</a></dd>
+	<dd><a href="http://php.net/manual/en/tutorial.php">A simple tutorial</a></dd>
+<dt><a href="http://php.net/manual/en/langref.php">Language Reference</a></dt>
+	<dd><a href="http://php.net/manual/en/language.basic-syntax.php">Basic syntax</a></dd>
+	<dd><a href="http://php.net/manual/en/language.types.php">Types</a></dd>
+	<dd><a href="http://php.net/manual/en/language.variables.php">Variables</a></dd>
+	<dd><a href="http://php.net/manual/en/language.constants.php">Constants</a></dd>
+	<dd><a href="http://php.net/manual/en/language.expressions.php">Expressions</a></dd>
+	<dd><a href="http://php.net/manual/en/language.operators.php">Operators</a></dd>
+	<dd><a href="http://php.net/manual/en/language.control-structures.php">Control Structures</a></dd>
+	<dd><a href="http://php.net/manual/en/language.functions.php">Functions</a></dd>
+	<dd><a href="http://php.net/manual/en/language.oop5.php">Classes and Objects</a></dd>
+	<dd><a href="http://php.net/manual/en/language.namespaces.php">Namespaces</a></dd>
+	<dd><a href="http://php.net/manual/en/language.errors.php">Errors</a></dd>
+	<dd><a href="http://php.net/manual/en/language.exceptions.php">Exceptions</a></dd>
+	<dd><a href="http://php.net/manual/en/language.generators.php">Generators</a></dd>
+	<dd><a href="http://php.net/manual/en/language.references.php">References Explained</a></dd>
+	<dd><a href="http://php.net/manual/en/reserved.variables.php">Predefined Variables</a></dd>
+	<dd><a href="http://php.net/manual/en/reserved.exceptions.php">Predefined Exceptions</a></dd>
+	<dd><a href="http://php.net/manual/en/reserved.interfaces.php">Predefined Interfaces and Classes</a></dd>
+	<dd><a href="http://php.net/manual/en/context.php">Context options and parameters</a></dd>
+	<dd><a href="http://php.net/manual/en/wrappers.php">Supported Protocols and Wrappers</a></dd>
+</dl>
+<dl>
+<dt><a href="http://php.net/manual/en/security.php">Security</a></dt>
+	<dd><a href="http://php.net/manual/en/security.intro.php">Introduction</a></dd>
+	<dd><a href="http://php.net/manual/en/security.general.php">General considerations</a></dd>
+	<dd><a href="http://php.net/manual/en/security.cgi-bin.php">Installed as CGI binary</a></dd>
+	<dd><a href="http://php.net/manual/en/security.apache.php">Installed as an Apache module</a></dd>
+	<dd><a href="http://php.net/manual/en/security.sessions.php">Session Security</a></dd>
+	<dd><a href="http://php.net/manual/en/security.filesystem.php">Filesystem Security</a></dd>
+	<dd><a href="http://php.net/manual/en/security.database.php">Database Security</a></dd>
+	<dd><a href="http://php.net/manual/en/security.errors.php">Error Reporting</a></dd>
+	<dd><a href="http://php.net/manual/en/security.globals.php">Using Register Globals</a></dd>
+	<dd><a href="http://php.net/manual/en/security.variables.php">User Submitted Data</a></dd>
+	<dd><a href="http://php.net/manual/en/security.magicquotes.php">Magic Quotes</a></dd>
+	<dd><a href="http://php.net/manual/en/security.hiding.php">Hiding PHP</a></dd>
+	<dd><a href="http://php.net/manual/en/security.current.php">Keeping Current</a></dd>
+<dt><a href="http://php.net/manual/en/features.php">Features</a></dt>
+	<dd><a href="http://php.net/manual/en/features.http-auth.php">HTTP authentication with PHP</a></dd>
+	<dd><a href="http://php.net/manual/en/features.cookies.php">Cookies</a></dd>
+	<dd><a href="http://php.net/manual/en/features.sessions.php">Sessions</a></dd>
+	<dd><a href="http://php.net/manual/en/features.xforms.php">Dealing with XForms</a></dd>
+	<dd><a href="http://php.net/manual/en/features.file-upload.php">Handling file uploads</a></dd>
+	<dd><a href="http://php.net/manual/en/features.remote-files.php">Using remote files</a></dd>
+	<dd><a href="http://php.net/manual/en/features.connection-handling.php">Connection handling</a></dd>
+	<dd><a href="http://php.net/manual/en/features.persistent-connections.php">Persistent Database Connections</a></dd>
+	<dd><a href="http://php.net/manual/en/features.safe-mode.php">Safe Mode</a></dd>
+	<dd><a href="http://php.net/manual/en/features.commandline.php">Command line usage</a></dd>
+	<dd><a href="http://php.net/manual/en/features.gc.php">Garbage Collection</a></dd>
+	<dd><a href="http://php.net/manual/en/features.dtrace.php">DTrace Dynamic Tracing</a></dd>
+</dl>
+<dl>
+<dt><a href="http://php.net/manual/en/funcref.php">Function Reference</a></dt>
+	<dd><a href="http://php.net/manual/en/refs.basic.php.php">Affecting PHP's Behaviour</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.utilspec.audio.php">Audio Formats Manipulation</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.remote.auth.php">Authentication Services</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.utilspec.cmdline.php">Command Line Specific Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.compression.php">Compression and Archive Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.creditcard.php">Credit Card Processing</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.crypto.php">Cryptography Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.database.php">Database Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.calendar.php">Date and Time Related Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.fileprocess.file.php">File System Related Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.international.php">Human Language and Character Encoding Support</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.utilspec.image.php">Image Processing and Generation</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.remote.mail.php">Mail Related Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.math.php">Mathematical Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.utilspec.nontext.php">Non-Text MIME Output</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.fileprocess.process.php">Process Control Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.basic.other.php">Other Basic Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.remote.other.php">Other Services</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.search.php">Search Engine Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.utilspec.server.php">Server Specific Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.basic.session.php">Session Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.basic.text.php">Text Processing</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.basic.vartype.php">Variable and Type Related Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.webservice.php">Web Services</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.utilspec.windows.php">Windows Only Extensions</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.xml.php">XML Manipulation</a></dd>
+	<dd><a href="http://php.net/manual/en/refs.ui.php">GUI Extensions</a></dd>
+</dl>
+<dl>
+<dt>Keyboard Shortcuts</dt><dt>?</dt>
+<dd>This help</dd>
+<dt>j</dt>
+<dd>Next menu item</dd>
+<dt>k</dt>
+<dd>Previous menu item</dd>
+<dt>g p</dt>
+<dd>Previous man page</dd>
+<dt>g n</dt>
+<dd>Next man page</dd>
+<dt>G</dt>
+<dd>Scroll to bottom</dd>
+<dt>g g</dt>
+<dd>Scroll to top</dd>
+<dt>g h</dt>
+<dd>Goto homepage</dd>
+<dt>g s</dt>
+<dd>Goto search<br>(current page)</dd>
+<dt>/</dt>
+<dd>Focus search box</dd>
+</dl></div></nav>
+<div id="goto">
+    <div class="search">
+         <div class="text"></div>
+         <div class="results"><ul></ul></div>
+   </div>
+</div>
+
+  <div id="breadcrumbs" class="clearfix">
+    <div id="breadcrumbs-inner">
+          <div class="next">
+        <a href="http://php.net/manual/en/function.include-once.php">
+          include_once »
+        </a>
+      </div>
+              <div class="prev">
+        <a href="http://php.net/manual/en/function.include.php">
+          « include        </a>
+      </div>
+          <ul>
+            <li><a href="http://php.net/manual/en/index.php">PHP Manual</a></li>      <li><a href="http://php.net/manual/en/langref.php">Language Reference</a></li>      <li><a href="http://php.net/manual/en/language.control-structures.php">Control Structures</a></li>      </ul>
+    </div>
+  </div>
+
+
+
+
+<div id="layout" class="clearfix">
+  <section id="layout-content">
+  <div class="page-tools">
+    <div class="change-language">
+      <form action="http://php.net/manual/change.php" method="get" id="changelang" name="changelang">
+        <fieldset>
+          <label for="changelang-langs">Change language:</label>
+          <select onchange="document.changelang.submit()" name="page" id="changelang-langs">
+            <option value="en/function.require-once.php" selected="selected">English</option>
+            <option value="pt_BR/function.require-once.php">Brazilian Portuguese</option>
+            <option value="zh/function.require-once.php">Chinese (Simplified)</option>
+            <option value="fr/function.require-once.php">French</option>
+            <option value="de/function.require-once.php">German</option>
+            <option value="ja/function.require-once.php">Japanese</option>
+            <option value="ro/function.require-once.php">Romanian</option>
+            <option value="ru/function.require-once.php">Russian</option>
+            <option value="es/function.require-once.php">Spanish</option>
+            <option value="tr/function.require-once.php">Turkish</option>
+            <option value="help-translate.php">Other</option>
+          </select>
+        </fieldset>
+      </form>
+    </div>
+    <div class="edit-bug">
+      <a href="https://edit.php.net/?project=PHP&amp;perm=en/function.require-once.php">Edit</a>
+      <a href="https://bugs.php.net/report.php?bug_type=Documentation+problem&amp;manpage=function.require-once">Report a Bug</a>
+    </div>
+  </div><div id="function.require-once" class="sect1">
+ <h2 class="title">require_once<a class="genanchor" href="http://php.net/manual/en/function.require-once.php#function.require-once"> ¶</a></h2>
+ <p class="verinfo">(PHP 4, PHP 5, PHP 7)</p>
+ <p class="para">
+  The <em>require_once</em> statement is identical to
+  <span class="function"><a href="http://php.net/manual/en/function.require.php" class="function">require</a></span> except PHP will check if the file has
+  already been included, and if so, not include (require) it again.
+ </p>
+ <p class="para">
+  See the <span class="function"><a href="http://php.net/manual/en/function.include-once.php" class="function">include_once</a></span> documentation for information
+  about the <em>_once</em> behaviour, and how it differs from
+  its non <em>_once</em> siblings.
+ </p>
+
+</div>
+<section id="usernotes">
+ <div class="head">
+  <span class="action"><a href="http://php.net/manual/add-note.php?sect=function.require-once&amp;redirect=http://php.net/manual/en/function.require-once.php"><img src="./PHP_ require_once - Manual_files/notes-add@2x.png" alt="add a note" width="12" height="12"> <small>add a note</small></a></span>
+  <h3 class="title">User Contributed Notes <span class="count">24 notes</span></h3>
+ </div><div id="allnotes">
+  <div class="note" id="104265">  <div class="votes">
+    <div id="Vu104265">
+    <a href="http://php.net/manual/vote-note.php?id=104265&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd104265">
+    <a href="http://php.net/manual/vote-note.php?id=104265&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V104265" title="58% like this...">
+    106
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#104265" class="name">
+  <strong class="user"><em>bimal at sanjaal dot com</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#104265"> ¶</a><div class="date" title="2011-06-04 11:46"><strong>7 years ago</strong></div>
+  <div class="text" id="Hcom104265" style="opacity: 1;">
+<div class="phpcode"><code><span class="html">
+If your code is running on multiple servers with different environments (locations from where your scripts run) the following idea may be useful to you:
+<br>
+<br>a. Do not give absolute path to include files on your server.
+<br>b. Dynamically calculate the full path (absolute path)
+<br>
+<br>Hints:
+<br>Use a combination of dirname(__FILE__) and subsequent calls to itself until you reach to the home of your '/index.php'. Then, attach this variable (that contains the path) to your included files.
+<br>
+<br>One of my typical example is:
+<br>
+<br><span class="default">&lt;?php
+<br>define</span><span class="keyword">(</span><span class="string">'__ROOT__'</span><span class="keyword">, </span><span class="default">dirname</span><span class="keyword">(</span><span class="default">dirname</span><span class="keyword">(</span><span class="default">__FILE__</span><span class="keyword">)));
+<br>require_once(</span><span class="default">__ROOT__</span><span class="keyword">.</span><span class="string">'/config.php'</span><span class="keyword">);
+<br></span><span class="default">?&gt;
+<br></span>
+<br>instead of:
+<br><span class="default">&lt;?php </span><span class="keyword">require_once(</span><span class="string">'/var/www/public_html/config.php'</span><span class="keyword">); </span><span class="default">?&gt;
+<br></span>
+<br>After this, if you copy paste your codes to another servers, it will still run, without requiring any further re-configurations.
+<br>
+<br>[EDIT BY danbrown AT php DOT net: Contains a typofix (missing ')') provided by 'JoeB' on 09-JUN-2011.]</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="117921">  <div class="votes">
+    <div id="Vu117921">
+    <a href="http://php.net/manual/vote-note.php?id=117921&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd117921">
+    <a href="http://php.net/manual/vote-note.php?id=117921&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V117921" title="53% like this...">
+    14
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#117921" class="name">
+  <strong class="user"><em>powtac at gmx dot de</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#117921"> ¶</a><div class="date" title="2015-09-02 01:36"><strong>3 years ago</strong></div>
+  <div class="text" id="Hcom117921" style="opacity: 1;">
+<div class="phpcode"><code><span class="html">
+"require_once" and "require" are language constructs and not functions. Therefore they should be written without "()" brackets!</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="121859">  <div class="votes">
+    <div id="Vu121859">
+    <a href="http://php.net/manual/vote-note.php?id=121859&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd121859">
+    <a href="http://php.net/manual/vote-note.php?id=121859&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V121859" title="52% like this...">
+    2
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#121859" class="name">
+  <strong class="user"><em>apis17</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#121859"> ¶</a><div class="date" title="2017-11-11 03:29"><strong>1 year ago</strong></div>
+  <div class="text" id="Hcom121859">
+<div class="phpcode"><code><span class="html">
+require_once may not work correctly inside repetitive function when storing variable for example:<br><br>file: var.php<br><span class="default">&lt;?php<br>$foo </span><span class="keyword">= </span><span class="string">'bar'</span><span class="keyword">;<br></span><span class="default">?&gt;<br></span><br>file: check.php<br><span class="default">&lt;?php<br><br></span><span class="keyword">function </span><span class="default">foo</span><span class="keyword">(){<br>&nbsp; &nbsp; require_once(</span><span class="string">'var.php'</span><span class="keyword">);<br>&nbsp; &nbsp; return </span><span class="default">$foo</span><span class="keyword">;<br>}<br><br>for(</span><span class="default">$a</span><span class="keyword">=</span><span class="default">1</span><span class="keyword">;</span><span class="default">$a</span><span class="keyword">&lt;=</span><span class="default">5</span><span class="keyword">;</span><span class="default">$a</span><span class="keyword">++){<br>&nbsp; &nbsp; echo </span><span class="default">foo</span><span class="keyword">().</span><span class="string">"&lt;br&gt;"</span><span class="keyword">;<br>}<br><br>&gt; </span><span class="default">php check</span><span class="keyword">.</span><span class="default">php<br>result</span><span class="keyword">: <br></span><span class="default">bar<br></span><span class="keyword">&lt;empty </span><span class="default">line</span><span class="keyword">&gt;<br>&lt;empty </span><span class="default">line</span><span class="keyword">&gt;<br>&lt;empty </span><span class="default">line</span><span class="keyword">&gt;<br>&lt;empty </span><span class="default">line</span><span class="keyword">&gt;<br><br></span><span class="default">to make sure variable bar available at each </span><span class="keyword">function </span><span class="default">call</span><span class="keyword">, </span><span class="default">replace </span><span class="keyword">require </span><span class="default">once with </span><span class="keyword">require. </span><span class="default">eg situation</span><span class="keyword">: </span><span class="default">https</span><span class="keyword">:</span><span class="comment">//stackoverflow.com/questions/29898199/variables-not-defined-inside-function-on-second-time-at-foreach<br><br></span><span class="default">Solution</span><span class="keyword">:<br><br></span><span class="default">file</span><span class="keyword">: </span><span class="default">check2</span><span class="keyword">.</span><span class="default">php<br></span><span class="keyword">&lt;?</span><span class="default">php<br><br></span><span class="keyword">function </span><span class="default">foo</span><span class="keyword">(){<br>&nbsp; &nbsp; require(</span><span class="string">'var.php'</span><span class="keyword">);<br>&nbsp; &nbsp; return </span><span class="default">$foo</span><span class="keyword">;<br>}<br><br>for(</span><span class="default">$a</span><span class="keyword">=</span><span class="default">1</span><span class="keyword">;</span><span class="default">$a</span><span class="keyword">&lt;=</span><span class="default">5</span><span class="keyword">;</span><span class="default">$a</span><span class="keyword">++){<br>&nbsp; &nbsp; echo </span><span class="default">foo</span><span class="keyword">().</span><span class="string">"&lt;br&gt;"</span><span class="keyword">;<br>}<br><br>&gt; </span><span class="default">php check2</span><span class="keyword">.</span><span class="default">php<br>result</span><span class="keyword">:<br></span><span class="default">bar<br>bar<br>bar<br>bar<br>bar</span>
+</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="52442">  <div class="votes">
+    <div id="Vu52442">
+    <a href="http://php.net/manual/vote-note.php?id=52442&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd52442">
+    <a href="http://php.net/manual/vote-note.php?id=52442&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V52442" title="44% like this...">
+    -26
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#52442" class="name">
+  <strong class="user"><em>miqrogroove</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#52442"> ¶</a><div class="date" title="2005-05-01 11:10"><strong>13 years ago</strong></div>
+  <div class="text" id="Hcom52442" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+require_once() is NOT independent of require().&nbsp; Therefore, the following code will work as expected:<br><br>echo.php<br><span class="default">&lt;?php<br></span><span class="keyword">echo </span><span class="string">"Hello"</span><span class="keyword">;<br></span><span class="default">?&gt;<br></span><br>test.php<br><span class="default">&lt;?php<br></span><span class="keyword">require(</span><span class="string">'echo.php'</span><span class="keyword">);<br>require_once(</span><span class="string">'echo.php'</span><span class="keyword">);<br></span><span class="default">?&gt;<br></span><br>test.php outputs: "Hello".<br><br>Enjoy,<br>-- Miqro</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="90017">  <div class="votes">
+    <div id="Vu90017">
+    <a href="http://php.net/manual/vote-note.php?id=90017&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd90017">
+    <a href="http://php.net/manual/vote-note.php?id=90017&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V90017" title="42% like this...">
+    -28
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#90017" class="name">
+  <strong class="user"><em>Konstantin Rozinov (krozinov[at]gmail)</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#90017"> ¶</a><div class="date" title="2009-04-01 04:58"><strong>9 years ago</strong></div>
+  <div class="text" id="Hcom90017" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+There's been a lot of discussion about the speed differences between using require_once() vs. require().<br>I was curious myself, so I ran some tests to see what's faster: <br> - require_once() vs require()<br> - using relative_path vs absolute_path<br><br>I also included results from strace for the number of stat() system calls.&nbsp; My results and conclusions below.<br><br>METHODOLOGY:<br>------------<br>The script (test.php):<br><span class="default">&lt;?php<br> $start_time </span><span class="keyword">= </span><span class="default">microtime</span><span class="keyword">(</span><span class="default">true</span><span class="keyword">);<br>&nbsp; &nbsp; <br> </span><span class="comment">/* <br>&nbsp; * Uncomment one at a time and run test below.<br>&nbsp; * sql_servers.inc only contains define() statements.<br>&nbsp; */<br> <br> //require ('/www/includes/example.com/code/conf/sql_servers.inc');<br> //require ('../../includes/example.com/code/conf/sql_servers.inc');<br> //require_once ('/www/includes/example.com/code/conf/sql_servers.inc');<br> //require_once ('../../includes/example.com/code/conf/sql_servers.inc');<br> <br> </span><span class="default">$end_time </span><span class="keyword">= </span><span class="default">microtime</span><span class="keyword">(</span><span class="default">true</span><span class="keyword">);<br> <br> </span><span class="default">$handle </span><span class="keyword">= </span><span class="default">fopen</span><span class="keyword">(</span><span class="string">"/tmp/results"</span><span class="keyword">, </span><span class="string">"ab+"</span><span class="keyword">);<br> </span><span class="default">fwrite</span><span class="keyword">(</span><span class="default">$handle</span><span class="keyword">, (</span><span class="default">$end_time </span><span class="keyword">- </span><span class="default">$start_time</span><span class="keyword">) . </span><span class="string">"\n"</span><span class="keyword">);<br> </span><span class="default">fclose</span><span class="keyword">(</span><span class="default">$handle</span><span class="keyword">);<br></span><span class="default">?&gt;<br></span><br>The test:<br>&nbsp; I ran ab on the test.php script with a different require*() uncommented each time:<br>&nbsp; ab -n 1000 -c 10 www.example.com/test.php<br><br>RESULTS:<br>--------<br>The average time it took to run test.php once:<br>require('absolute_path'):&nbsp; &nbsp; &nbsp; 0.000830569960420<br>require('relative_path'):&nbsp; &nbsp; &nbsp; 0.000829198306664<br>require_once('absolute_path'): 0.000832904849136<br>require_once('relative_path'): 0.000824960252097<br><br>The average was computed by eliminating the 100 slowest and 100 fastest times, so a total of 800 (1000 - 200) times were used to compute the average time.&nbsp; This was done to eliminate any unusual spikes or dips.<br><br>The question of how many stat() system calls were made can be answered as follows:<br>- If you run httpd -X and then do an strace -p &lt;pid_of_httpd&gt;, you can view the system calls that take place to process the request.<br>- The most important thing to note is if you run test.php continuously (as the ab test does above), the stat() calls only happen for the first request:<br><br>&nbsp; first call to test.php (above):<br>&nbsp; -------------------------------<br>&nbsp; lstat64 ("/www", {st_mode=S_IFDIR|0755, st_size=...<br>&nbsp; lstat64 ("/www/includes", {st_mode=S_IFDIR|0755,...<br>&nbsp; lstat64 ("/www/includes/example.com", {st_mode=S...<br>&nbsp; lstat64 ("/www/includes/example.com/code", {st_m...<br>&nbsp; lstat64 ("/www/includes/example.com/code/conf", ...<br>&nbsp; lstat64 ("/www/includes/example.com/code/conf/sql_servers.inc", {st_mode...<br>&nbsp; open ("/www/includes/example.com/code/conf/sql_servers.inc", O_RDONLY) = 17<br>&nbsp; <br>&nbsp; subsequent calls to test.php:<br>&nbsp; -----------------------------<br>&nbsp; open ("/www/includes/example.com/code/conf/sql_servers.inc", O_RDONLY) = 17<br><br>- The lack of stat() system calls in the subsequent calls to test.php only happens when test.php is called continusly.&nbsp; If you wait a certain period of time (about 1 minute or so), the stat() calls will happen again.<br>- This indicates that either the OS (Ubuntu Linux in my case), or Apache is "caching" or knows the results of the previous stat() calls, so it doesn't bother repeating them.<br>- When using absolute_path there are fewer stat() system calls.<br>- When using relative_path there are more stat() system calls because it has to start stat()ing from the current directory back up to / and then to the include/ directory.<br><br>CONCLUSIONS:<br>------------<br>- Try to use absolute_path when calling require*().<br>- The time difference between require_once() vs. require() is so tiny, it's almost always insignificant in terms of performance.&nbsp; The one exception is if you have a very large application that has hundreds of require*() calls.<br>- When using APC opcode caching, the speed difference between the two is completely irrelevant.<br>- Use an opcode cache, like APC!<br><br>Konstantin Rozinov<br>krozinov [at] gmail</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="115287">  <div class="votes">
+    <div id="Vu115287">
+    <a href="http://php.net/manual/vote-note.php?id=115287&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd115287">
+    <a href="http://php.net/manual/vote-note.php?id=115287&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V115287" title="36% like this...">
+    -26
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#115287" class="name">
+  <strong class="user"><em>Dodo</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#115287"> ¶</a><div class="date" title="2014-06-28 10:41"><strong>4 years ago</strong></div>
+  <div class="text" id="Hcom115287" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+If you happen to encounter some "Warning: require_once(): failed to open stream" and you are certain the provided path is right, consider the following example &amp; solution.<br><br>Considering the following tree:<br>+ C:\server\absolute\path\<br>&nbsp; &nbsp; + somefolder\<br>&nbsp; &nbsp; &nbsp; &nbsp; - index.php<br>&nbsp; &nbsp; + supbath<br>&nbsp; &nbsp; &nbsp; &nbsp; + anotherfolder1\<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - file1.php<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - file2.php<br>&nbsp; &nbsp; &nbsp; &nbsp; + anotherfolder2\<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - file3.php<br><br>With the respective sources:<br>original index.php:<br><span class="default">&lt;?php<br><br>&nbsp; &nbsp; </span><span class="comment">// absolute path<br>&nbsp; &nbsp; // inclusion status: SUCCESS<br>&nbsp; &nbsp; </span><span class="keyword">require_once </span><span class="string">'C:\server\absolute\path\subpath\anotherfolder1\file1.php'</span><span class="keyword">;<br><br></span><span class="default">?&gt;<br></span><br>original file1.php:<br><span class="default">&lt;?php<br><br>&nbsp; &nbsp; </span><span class="comment">// relative path<br>&nbsp; &nbsp; // inclusion status: SUCCESS<br>&nbsp; &nbsp; </span><span class="keyword">require_once </span><span class="string">'file2.php'</span><span class="keyword">;<br><br>&nbsp; &nbsp; </span><span class="comment">// relative path<br>&nbsp; &nbsp; // inclusion status: FAILURE<br>&nbsp; &nbsp; </span><span class="keyword">require_once </span><span class="string">'../anotherfolder2/file3.php'</span><span class="keyword">;<br><br></span><span class="default">?&gt;<br></span><br>You will notice the use of "\" as DIRECTORY_SEPARATOR, but the same result is obtained using "/".<br>Assumption ? PHP does not behave as it should if it encounters a relative path starting by a '../'. Well, this is not true.<br><br>Below is a modified file1.php:<br><span class="default">&lt;?php<br><br>&nbsp; &nbsp; </span><span class="comment">// absolute path<br>&nbsp; &nbsp; // inclusion status: SUCCESS<br>&nbsp; &nbsp; </span><span class="keyword">require_once </span><span class="string">'/file2.php'</span><span class="keyword">;<br><br>&nbsp; &nbsp; </span><span class="comment">// absolute path<br>&nbsp; &nbsp; // inclusion status: SUCCESS<br>&nbsp; &nbsp; </span><span class="keyword">require_once </span><span class="string">'/../anotherfolder2/file3.php'</span><span class="keyword">;<br><br></span><span class="default">?&gt;<br></span><br>It seems that PHP recognizes a non-prefixed file name as an absolute path in a require_once, and that it computes this absolute path from a relative context.<br><br>I am not sure this is the expected behaviour, but it was quite hard to figure out. Also, if you want to recognize those special cases where you had to specify a relative path starting with a "/", you can use the following trick.<br><br><span class="default">&lt;?php<br><br>&nbsp; &nbsp; </span><span class="comment">// it goes down one level, and then goes up one level : the result is neutral, but after prefixing your paths with this, PHP handles them<br>&nbsp; &nbsp; </span><span class="default">define </span><span class="keyword">(</span><span class="string">'REQUIRE_TRICK'</span><span class="keyword">, </span><span class="string">'/TRICK/../'</span><span class="keyword">);<br><br>&nbsp; &nbsp; require_once </span><span class="default">REQUIRE_TRICK </span><span class="keyword">. </span><span class="string">'file2.php'</span><span class="keyword">;<br>&nbsp; &nbsp; require_once </span><span class="default">REQUIRE_TRICK </span><span class="keyword">. </span><span class="string">'../anotherfolder2/file3.php'</span><span class="keyword">;<br><br></span><span class="default">?&gt;<br></span><br>If this ever gets reworked/fixed, it will be easy to remove the define.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="98945">  <div class="votes">
+    <div id="Vu98945">
+    <a href="http://php.net/manual/vote-note.php?id=98945&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd98945">
+    <a href="http://php.net/manual/vote-note.php?id=98945&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V98945" title="34% like this...">
+    -23
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#98945" class="name">
+  <strong class="user"><em>jason semko at gmail dot com</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#98945"> ¶</a><div class="date" title="2010-07-16 01:33"><strong>8 years ago</strong></div>
+  <div class="text" id="Hcom98945" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+If you are coding on localhost and require_once is not opening files due to 'relative paths' a simple solution is:<br><br><span class="default">&lt;?php <br><br>&nbsp; &nbsp; &nbsp; </span><span class="keyword">require_once(</span><span class="default">dirname</span><span class="keyword">(</span><span class="default">__FILE__</span><span class="keyword">) . </span><span class="string">"/file.php"</span><span class="keyword">);<br><br></span><span class="default">?&gt;<br></span><br>If you have file.php under the folder 'includes' (or anywhere for that matter), then folder 'public' AND folder 'public/admin' will be able to access all required files despite having different relative paths.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="103462">  <div class="votes">
+    <div id="Vu103462">
+    <a href="http://php.net/manual/vote-note.php?id=103462&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd103462">
+    <a href="http://php.net/manual/vote-note.php?id=103462&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V103462" title="32% like this...">
+    -19
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#103462" class="name">
+  <strong class="user"><em>spark at limao dot com dot br</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#103462"> ¶</a><div class="date" title="2011-04-14 07:31"><strong>7 years ago</strong></div>
+  <div class="text" id="Hcom103462" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+if you use require_once on a file A pointing to file B, and require_once in the file B pointing to file A, in some configurations you will get stuck
+<br>
+<br>also wouldn't it be nice to manage that to prevent getting stuck AND use the good old Java import?
+<br>
+<br><span class="default">&lt;?php
+<br>&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="keyword">function </span><span class="default">import</span><span class="keyword">(</span><span class="default">$path</span><span class="keyword">=</span><span class="string">""</span><span class="keyword">){
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; if(</span><span class="default">$path </span><span class="keyword">== </span><span class="string">""</span><span class="keyword">){ </span><span class="comment">//no parameter returns the file import info tree;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="default">$report </span><span class="keyword">= </span><span class="default">$_SESSION</span><span class="keyword">[</span><span class="string">'imports'</span><span class="keyword">];
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; foreach(</span><span class="default">$report </span><span class="keyword">as &amp;</span><span class="default">$item</span><span class="keyword">) </span><span class="default">$item </span><span class="keyword">= </span><span class="default">array_flip</span><span class="keyword">(</span><span class="default">$item</span><span class="keyword">);
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; return </span><span class="default">$report</span><span class="keyword">;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; }
+<br>
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="default">$current </span><span class="keyword">= </span><span class="default">str_replace</span><span class="keyword">(</span><span class="string">"\\"</span><span class="keyword">,</span><span class="string">"/"</span><span class="keyword">,</span><span class="default">getcwd</span><span class="keyword">()).</span><span class="string">"/"</span><span class="keyword">;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="default">$path </span><span class="keyword">= </span><span class="default">$current</span><span class="keyword">.</span><span class="default">str_replace</span><span class="keyword">(</span><span class="string">"."</span><span class="keyword">,</span><span class="string">"/"</span><span class="keyword">,</span><span class="default">$path</span><span class="keyword">);
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; if(</span><span class="default">substr</span><span class="keyword">(</span><span class="default">$path</span><span class="keyword">,-</span><span class="default">1</span><span class="keyword">) != </span><span class="string">"*"</span><span class="keyword">) </span><span class="default">$path </span><span class="keyword">.= </span><span class="string">".class.php"</span><span class="keyword">;
+<br>
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="default">$imports </span><span class="keyword">= &amp;</span><span class="default">$_SESSION</span><span class="keyword">[</span><span class="string">'imports'</span><span class="keyword">];
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; if(!</span><span class="default">is_array</span><span class="keyword">(</span><span class="default">$imports</span><span class="keyword">)) </span><span class="default">$imports </span><span class="keyword">= array();
+<br>
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="default">$control </span><span class="keyword">= &amp;</span><span class="default">$imports</span><span class="keyword">[</span><span class="default">$_SERVER</span><span class="keyword">[</span><span class="string">'SCRIPT_FILENAME'</span><span class="keyword">]];
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; if(!</span><span class="default">is_array</span><span class="keyword">(</span><span class="default">$control</span><span class="keyword">)) </span><span class="default">$control </span><span class="keyword">= array();
+<br>
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; foreach(</span><span class="default">glob</span><span class="keyword">(</span><span class="default">$path</span><span class="keyword">) as </span><span class="default">$file</span><span class="keyword">){
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="default">$file </span><span class="keyword">= </span><span class="default">str_replace</span><span class="keyword">(</span><span class="default">$current</span><span class="keyword">,</span><span class="string">""</span><span class="keyword">,</span><span class="default">$file</span><span class="keyword">);
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; if(</span><span class="default">is_dir</span><span class="keyword">(</span><span class="default">$file</span><span class="keyword">)) </span><span class="default">import</span><span class="keyword">(</span><span class="default">$file</span><span class="keyword">.</span><span class="string">".*"</span><span class="keyword">);
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; if(</span><span class="default">substr</span><span class="keyword">(</span><span class="default">$file</span><span class="keyword">,-</span><span class="default">10</span><span class="keyword">) != </span><span class="string">".class.php"</span><span class="keyword">) continue;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; if(</span><span class="default">$control</span><span class="keyword">[</span><span class="default">$file</span><span class="keyword">]) continue;
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="default">$control</span><span class="keyword">[</span><span class="default">$file</span><span class="keyword">] = </span><span class="default">count</span><span class="keyword">(</span><span class="default">$control</span><span class="keyword">);
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; require_once(</span><span class="default">$file</span><span class="keyword">);
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; }
+<br>&nbsp; &nbsp; &nbsp;&nbsp; }
+<br></span><span class="default">?&gt;
+<br></span>
+<br>just remember to start the session and to enable the glob function
+<br>
+<br>now you can use
+<br><span class="default">&lt;?php
+<br>&nbsp; &nbsp; import</span><span class="keyword">(</span><span class="string">"package.ClassName"</span><span class="keyword">);
+<br>&nbsp; &nbsp; </span><span class="default">import</span><span class="keyword">(</span><span class="string">"another.package.*"</span><span class="keyword">); </span><span class="comment">//this will import everything in the folder
+<br></span><span class="default">?&gt;</span>
+</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="49245">  <div class="votes">
+    <div id="Vu49245">
+    <a href="http://php.net/manual/vote-note.php?id=49245&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd49245">
+    <a href="http://php.net/manual/vote-note.php?id=49245&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V49245" title="32% like this...">
+    -17
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#49245" class="name">
+  <strong class="user"><em>thomas dot revell at uwe dot ac dot uk</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#49245"> ¶</a><div class="date" title="2005-01-21 02:00"><strong>14 years ago</strong></div>
+  <div class="text" id="Hcom49245" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+Regarding the case insensitivity problems on Windows, it looks to me as though it is a problem in PHP5 as well (at least in some cases).<br><br>The following gave me problems:<br><br>From file URLSwitcher.php<br><span class="default">&lt;?php<br></span><span class="keyword">require_once </span><span class="string">'slimError/slimError.php'</span><span class="keyword">;<br>require_once </span><span class="string">'Navigator_Cache.php'</span><span class="keyword">;<br>....<br></span><span class="default">?&gt;<br></span><br>From file Navigator_Cache.php<br><span class="default">&lt;?php<br></span><span class="keyword">require_once </span><span class="string">'slimError/slimerror.php'</span><span class="keyword">;<br>...<br></span><span class="default">?&gt;<br></span><br>From file slimerror.php<br><span class="default">&lt;?php<br></span><span class="keyword">class </span><span class="default">SLIMError </span><span class="keyword">{<br>...<br>}<br></span><span class="default">?&gt;<br></span>The above setup gave me an error : "Cannot redeclare class SLIMError"<br><br>If I change the require_once in URLSwitcher.php to match the one in Navigator_Cache.php, there isn't a problem, but if I do this the other way round, the same problem occurs.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="73733">  <div class="votes">
+    <div id="Vu73733">
+    <a href="http://php.net/manual/vote-note.php?id=73733&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd73733">
+    <a href="http://php.net/manual/vote-note.php?id=73733&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V73733" title="33% like this...">
+    -23
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#73733" class="name">
+  <strong class="user"><em>jazfresh at hotmail.com</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#73733"> ¶</a><div class="date" title="2007-03-07 11:22"><strong>11 years ago</strong></div>
+  <div class="text" id="Hcom73733" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+Check how many files you are including with get_required_files(). If it's a significant number (&gt; 100), it may be worth "compiling" the main PHP file. By "compiling", I mean write a script that reads a PHP file and replaces any "include/require_once" references with either:<br>- the file that it's requiring<br>- a blank line if that file has been included before<br><br>This function can be recursive, thus building up a large PHP file with no require_once references at all. The speedup can be dramatic. On one of our pages that included 115 classes, the page was sped up by 60%.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="93403">  <div class="votes">
+    <div id="Vu93403">
+    <a href="http://php.net/manual/vote-note.php?id=93403&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd93403">
+    <a href="http://php.net/manual/vote-note.php?id=93403&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V93403" title="29% like this...">
+    -17
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#93403" class="name">
+  <strong class="user"><em>ivan[DOT_NO_SPAM]chepurnyi[AT]gmail</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#93403"> ¶</a><div class="date" title="2009-09-08 06:42"><strong>9 years ago</strong></div>
+  <div class="text" id="Hcom93403" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+Also if you have a large MVC framework, it make sense to compile&nbsp; structure "file/path/to/class.php" to something like this "file_path_to_class.php", it will speed up any type of php files includes, becouse php interpreter will not check FS stat data for directories "file", "file/path", "file/path/to", etc.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="81023">  <div class="votes">
+    <div id="Vu81023">
+    <a href="http://php.net/manual/vote-note.php?id=81023&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd81023">
+    <a href="http://php.net/manual/vote-note.php?id=81023&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V81023" title="28% like this...">
+    -19
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#81023" class="name">
+  <strong class="user"><em>amcewen at look dot ca</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#81023"> ¶</a><div class="date" title="2008-02-11 07:00"><strong>11 years ago</strong></div>
+  <div class="text" id="Hcom81023" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+Perhaps it would be clearer to say that require_once() includes AND evaluates the resulting code once.&nbsp; More specifically, if there is code in the script file other than function declarations, this code will only be executed once via require_once().</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="122889">  <div class="votes">
+    <div id="Vu122889">
+    <a href="http://php.net/manual/vote-note.php?id=122889&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd122889">
+    <a href="http://php.net/manual/vote-note.php?id=122889&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V122889" title="20% like this...">
+    -3
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#122889" class="name">
+  <strong class="user"><em>Mental_Wanderer</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#122889"> ¶</a><div class="date" title="2018-06-27 08:31"><strong>7 months ago</strong></div>
+  <div class="text" id="Hcom122889" style="opacity: 0.55;">
+<div class="phpcode"><code><span class="html">
+Friendly reminder about namespaces...<br>Including or requiring a PHP file that defines as namespace means that the namespace name (or its "use ... as ..." alias) is always necessary to make use of the included file's content:<br><br>// A.php<br><br><span class="default">&lt;?php </span><span class="keyword">namespace </span><span class="default">A_NAMESPACE</span><span class="keyword">;<br><br>&nbsp;&nbsp; function </span><span class="default">foo</span><span class="keyword">()<br>&nbsp;&nbsp; {<br>&nbsp; &nbsp; &nbsp; </span><span class="comment">// What foo does...<br>&nbsp;&nbsp; </span><span class="keyword">}<br></span><span class="default">?&gt;<br></span><br>// B.php<br><br><span class="default">&lt;?php<br>&nbsp;&nbsp; </span><span class="keyword">require_once( </span><span class="string">'A.php' </span><span class="keyword">);<br>&nbsp;&nbsp; use \</span><span class="default">A_NAMESPACE </span><span class="keyword">as </span><span class="default">common</span><span class="keyword">;<br> <br>&nbsp;&nbsp; </span><span class="default">common</span><span class="keyword">\</span><span class="default">foo</span><span class="keyword">(); </span><span class="comment">// Does that foo thing...<br><br>&nbsp;&nbsp; </span><span class="default">foo</span><span class="keyword">();&nbsp; </span><span class="comment">// Fatal Error...<br></span><span class="default">?&gt;</span>
+</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="117331">  <div class="votes">
+    <div id="Vu117331">
+    <a href="http://php.net/manual/vote-note.php?id=117331&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd117331">
+    <a href="http://php.net/manual/vote-note.php?id=117331&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V117331" title="25% like this...">
+    -16
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#117331" class="name">
+  <strong class="user"><em>inci szlk</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#117331"> ¶</a><div class="date" title="2015-05-22 04:32"><strong>3 years ago</strong></div>
+  <div class="text" id="Hcom117331" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+you can also use this type define to get exact path of root directory. So, it won't mess if the file is in whatever directory in whatever directory.<br><br>if (!defined("DOCUMENT_ROOT")) define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT']);<br><br>require_once DOCUMENT_ROOT.'/hello/world.php';</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="62838">  <div class="votes">
+    <div id="Vu62838">
+    <a href="http://php.net/manual/vote-note.php?id=62838&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd62838">
+    <a href="http://php.net/manual/vote-note.php?id=62838&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V62838" title="27% like this...">
+    -20
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#62838" class="name">
+  <strong class="user"><em>antoine dot pouch at mcgill dot ca</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#62838"> ¶</a><div class="date" title="2006-03-10 07:13"><strong>12 years ago</strong></div>
+  <div class="text" id="Hcom62838" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+require_once (and include_once for that matters) is slow. <br>Furthermore, if you plan on using unit tests and mock objects (i.e. including mock classes before the real ones are included in the class you want to test), it will not work as require() loads a file and not a class.<br><br>To bypass that, and gain speed, I use :<br><br><span class="default">&lt;?php<br>class_exists</span><span class="keyword">(</span><span class="string">'myClass'</span><span class="keyword">) || require(</span><span class="string">'path/to/myClass.class.php'</span><span class="keyword">);<br></span><span class="default">?&gt;<br></span><br>I tried to time 100 require_once on the same file and it took the script 0.0026 seconds to run, whereas with my method it took only 0.00054 seconds. 4 times faster ! OK, my method of testing is quite empirical and YMMV but the bonus is the ability to use mock objects in your unit tests.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="40897">  <div class="votes">
+    <div id="Vu40897">
+    <a href="http://php.net/manual/vote-note.php?id=40897&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd40897">
+    <a href="http://php.net/manual/vote-note.php?id=40897&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V40897" title="28% like this...">
+    -28
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#40897" class="name"><strong class="user"><em>Anonymous</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#40897"> ¶</a><div class="date" title="2004-03-18 09:49"><strong>14 years ago</strong></div>
+  <div class="text" id="Hcom40897" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+&gt; Mac OS X systems are also not case-sensitive.<br>That depends on the filesystem:<br>- HFS and HFS+ are NOT case sensitive.<br>- UFS is case sensitive.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="75766">  <div class="votes">
+    <div id="Vu75766">
+    <a href="http://php.net/manual/vote-note.php?id=75766&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd75766">
+    <a href="http://php.net/manual/vote-note.php?id=75766&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V75766" title="25% like this...">
+    -25
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#75766" class="name">
+  <strong class="user"><em>manuel schaffner</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#75766"> ¶</a><div class="date" title="2007-06-14 02:02"><strong>11 years ago</strong></div>
+  <div class="text" id="Hcom75766" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+The path for nested require_once() is always evaluated relative to the called / first file containing require_once(). To make it more flexible, maintain the include_path (php.ini) or use set_include_path() - then the file will be looked up in all these locations.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="114037">  <div class="votes">
+    <div id="Vu114037">
+    <a href="http://php.net/manual/vote-note.php?id=114037&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd114037">
+    <a href="http://php.net/manual/vote-note.php?id=114037&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V114037" title="22% like this...">
+    -22
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#114037" class="name">
+  <strong class="user"><em>acholoc at gmail dot com</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#114037"> ¶</a><div class="date" title="2014-01-04 09:43"><strong>5 years ago</strong></div>
+  <div class="text" id="Hcom114037" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+I think it's important (at least for beginners) to mention somewhere clearly visible that require_once, when being used in a class, cannot be outside a function. (I am aware that even this, i.e. using it within the function is bad practice). However, that information could have saved me some valuable time troubleshooting the "unexpected T_REQUIRE_ONCE" error.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="51044">  <div class="votes">
+    <div id="Vu51044">
+    <a href="http://php.net/manual/vote-note.php?id=51044&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd51044">
+    <a href="http://php.net/manual/vote-note.php?id=51044&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V51044" title="23% like this...">
+    -20
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#51044" class="name">
+  <strong class="user"><em>Pure-PHP</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#51044"> ¶</a><div class="date" title="2005-03-17 02:19"><strong>13 years ago</strong></div>
+  <div class="text" id="Hcom51044" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+require_once can slower your app, if you include to many files.<br><br>You cann use this wrapper class, it is faster than include_once <br><br><a href="http://www.pure-php.de/node/19" rel="nofollow" target="_blank">http://www.pure-php.de/node/19</a><br><br>require_once("includeWrapper.class.php")<br><br>includeWrapper::require_once("Class1.class.php");<br>includeWrapper::require_once("Class1.class.php");<br>includeWrapper::require_once("Class2.class.php")</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="50803">  <div class="votes">
+    <div id="Vu50803">
+    <a href="http://php.net/manual/vote-note.php?id=50803&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd50803">
+    <a href="http://php.net/manual/vote-note.php?id=50803&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V50803" title="23% like this...">
+    -23
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#50803" class="name">
+  <strong class="user"><em>jtaal at eljakim dot nl</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#50803"> ¶</a><div class="date" title="2005-03-10 05:00"><strong>13 years ago</strong></div>
+  <div class="text" id="Hcom50803" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+When you feel the need for a require_once_wildcard function, here's the solution:<br><br><span class="default">&lt;?php </span><span class="comment">// /var/www/app/system/include.inc.php<br><br></span><span class="keyword">function </span><span class="default">require_once_wildcard</span><span class="keyword">(</span><span class="default">$wildcard</span><span class="keyword">, </span><span class="default">$__FILE__</span><span class="keyword">) {<br>&nbsp; </span><span class="default">preg_match</span><span class="keyword">(</span><span class="string">"/^(.+)\/[^\/]+$/"</span><span class="keyword">, </span><span class="default">$__FILE__</span><span class="keyword">, </span><span class="default">$matches</span><span class="keyword">);<br>&nbsp; </span><span class="default">$ls </span><span class="keyword">= `</span><span class="string">ls </span><span class="default">$matches</span><span class="keyword">[</span><span class="default">1</span><span class="keyword">]</span><span class="string">/</span><span class="default">$wildcard</span><span class="keyword">`;<br>&nbsp; </span><span class="default">$ls </span><span class="keyword">= </span><span class="default">explode</span><span class="keyword">(</span><span class="string">"\n"</span><span class="keyword">, </span><span class="default">$ls</span><span class="keyword">);<br>&nbsp; </span><span class="default">array_pop</span><span class="keyword">(</span><span class="default">$ls</span><span class="keyword">); </span><span class="comment">// remove empty line ls always prints<br>&nbsp; </span><span class="keyword">foreach (</span><span class="default">$ls </span><span class="keyword">as </span><span class="default">$inc</span><span class="keyword">) {<br>&nbsp; &nbsp; require_once(</span><span class="default">$inc</span><span class="keyword">);<br>&nbsp; }<br>}<br><br></span><span class="default">?&gt;<br></span><br>The $__FILE__ variable should be filled with the special PHP construct __FILE__:<br><span class="default">&lt;?php </span><span class="comment">// /var/www/app/classes.inc.php<br><br></span><span class="keyword">require_once(</span><span class="string">'system/include.inc.php'</span><span class="keyword">);<br></span><span class="default">require_once_wildcard</span><span class="keyword">(</span><span class="string">"classes/*.inc.php"</span><span class="keyword">, </span><span class="default">__FILE__</span><span class="keyword">);<br><br></span><span class="default">?&gt;<br></span><br>The (*.inc.php) files inside the directory classes are automagically included using require_once_wildcard.<br><br>This solution may not be as useful when using PHP5 in combination with classes and the autoload feature.<br><br>--<br>Jaap Taal</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="100266">  <div class="votes">
+    <div id="Vu100266">
+    <a href="http://php.net/manual/vote-note.php?id=100266&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd100266">
+    <a href="http://php.net/manual/vote-note.php?id=100266&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V100266" title="22% like this...">
+    -25
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#100266" class="name">
+  <strong class="user"><em>info at erpplaza dot com</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#100266"> ¶</a><div class="date" title="2010-10-05 12:10"><strong>8 years ago</strong></div>
+  <div class="text" id="Hcom100266" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+Include all files from a particular directory
+<br>
+<br><span class="default">&lt;?php
+<br></span><span class="keyword">foreach (</span><span class="default">glob</span><span class="keyword">(</span><span class="string">"classes/*.php"</span><span class="keyword">) as </span><span class="default">$filename</span><span class="keyword">)
+<br>{
+<br>&nbsp; &nbsp; include </span><span class="default">$filename</span><span class="keyword">;
+<br>}
+<br></span><span class="default">?&gt;
+<br></span>
+<br>ERPPlaza</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="51165">  <div class="votes">
+    <div id="Vu51165">
+    <a href="http://php.net/manual/vote-note.php?id=51165&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd51165">
+    <a href="http://php.net/manual/vote-note.php?id=51165&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V51165" title="21% like this...">
+    -22
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#51165" class="name">
+  <strong class="user"><em>ulderico at maber dot com dot br</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#51165"> ¶</a><div class="date" title="2005-03-22 05:38"><strong>13 years ago</strong></div>
+  <div class="text" id="Hcom51165" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+With both of your functions guys, Pure-PHP and jtaal at eljakim dot nl, you'll not have any variables available GLOBALly if they're supposed to be globals...<br><br>That's why my import handles better those situation. OK, SOME MAY DISPUTE that using include_once and require_once may slow down an application. But what's the use to do IN PHP what the interpreter *should* do better for you. Thusly these workarounds shall, some time in the future, DIE.<br><br>Thus It's better to well design your application to keep some order using few INCLUDES and REQUIRES in it rather than insert MANY AND SEVERAL *_once around.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="72464">  <div class="votes">
+    <div id="Vu72464">
+    <a href="http://php.net/manual/vote-note.php?id=72464&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd72464">
+    <a href="http://php.net/manual/vote-note.php?id=72464&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V72464" title="19% like this...">
+    -22
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#72464" class="name">
+  <strong class="user"><em>sneskid at hotmail dot com</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#72464"> ¶</a><div class="date" title="2007-01-19 12:00"><strong>12 years ago</strong></div>
+  <div class="text" id="Hcom72464" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+<span class="default">&lt;?php<br></span><span class="keyword">function &amp; </span><span class="default">rel</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">, &amp;</span><span class="default">$f</span><span class="keyword">) {return </span><span class="default">file_exists</span><span class="keyword">( ( </span><span class="default">$f </span><span class="keyword">= ( </span><span class="default">dirname</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">).</span><span class="string">'/'</span><span class="keyword">.</span><span class="default">$f </span><span class="keyword">) ) );}<br>function &amp; </span><span class="default">relf</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">, </span><span class="default">$f</span><span class="keyword">) {return </span><span class="default">rel</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">,</span><span class="default">$f</span><span class="keyword">) ? </span><span class="default">file_get_contents</span><span class="keyword">(</span><span class="default">$f</span><span class="keyword">) : </span><span class="default">null</span><span class="keyword">;}<br>function &amp; </span><span class="default">reli</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">, </span><span class="default">$f</span><span class="keyword">) {return </span><span class="default">rel</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">,</span><span class="default">$f</span><span class="keyword">) ? include(</span><span class="default">$f</span><span class="keyword">) : </span><span class="default">null</span><span class="keyword">;}<br>function &amp; </span><span class="default">relr</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">, </span><span class="default">$f</span><span class="keyword">) {return </span><span class="default">rel</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">,</span><span class="default">$f</span><span class="keyword">) ? require(</span><span class="default">$f</span><span class="keyword">) : </span><span class="default">null</span><span class="keyword">;}<br>function &amp; </span><span class="default">relio</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">, </span><span class="default">$f</span><span class="keyword">) {return </span><span class="default">rel</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">,</span><span class="default">$f</span><span class="keyword">) ? include_once(</span><span class="default">$f</span><span class="keyword">) : </span><span class="default">null</span><span class="keyword">;}<br>function &amp; </span><span class="default">relro</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">, </span><span class="default">$f</span><span class="keyword">) {return </span><span class="default">rel</span><span class="keyword">(</span><span class="default">$r</span><span class="keyword">,</span><span class="default">$f</span><span class="keyword">) ? require_once(</span><span class="default">$f</span><span class="keyword">) : </span><span class="default">null</span><span class="keyword">;}<br></span><span class="default">?&gt;<br></span><br>I found it useful to have a function that can load a file relative to the calling script and return null if the file did not exist, without raising errors.<br><br><span class="default">&lt;?php<br></span><span class="comment">/*<br>Load file contents or return blank if it's not there.<br>Relative to the file calling the function.<br>*/<br></span><span class="keyword">echo </span><span class="default">relf</span><span class="keyword">(</span><span class="default">__FILE__</span><span class="keyword">, </span><span class="string">'some.file'</span><span class="keyword">);<br></span><span class="default">?&gt;<br></span><br>It was easy to modify and just as useful for require/include.<br><br><span class="default">&lt;?php<br></span><span class="comment">/*<br>Require the file once.<br>It's like suppressing error messages with @ but only when the file does not exist.<br>Still shows compile errors/warning, unless you use @relro().<br>Relative to the file calling the function.<br>*/<br></span><span class="default">relro</span><span class="keyword">(</span><span class="default">__FILE__</span><span class="keyword">, </span><span class="string">'stats.php'</span><span class="keyword">);<br></span><span class="default">?&gt;<br></span><br>If you work with a deep php file structure and a barrage of includes/requires/file-loads this works well.</span>
+</code></div>
+  </div>
+ </div>
+  <div class="note" id="69339">  <div class="votes">
+    <div id="Vu69339">
+    <a href="http://php.net/manual/vote-note.php?id=69339&amp;page=function.require-once&amp;vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd69339">
+    <a href="http://php.net/manual/vote-note.php?id=69339&amp;page=function.require-once&amp;vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V69339" title="17% like this...">
+    -26
+    </div>
+  </div>
+  <a href="http://php.net/manual/en/function.require-once.php#69339" class="name">
+  <strong class="user"><em>rejjn at mail dot nu</em></strong></a><a class="genanchor" href="http://php.net/manual/en/function.require-once.php#69339"> ¶</a><div class="date" title="2006-09-01 02:28"><strong>12 years ago</strong></div>
+  <div class="text" id="Hcom69339" style="opacity: 0.35;">
+<div class="phpcode"><code><span class="html">
+The following only applies to case insensitive systems like Windows.<br><br>Even though the documentation sais that "the path is normalized" that doesn't seem to be true in all cases. <br><br>If you are using the magic __autoload() function (or if the framework you're using is using it) and it includes the requested class file with complete path or if you override the include path in mid execution, you may have some very strange behavior. The most subtle problem is that the *_once functions seem to differentiate between c:\.... and C:\....<br><br>So to avoid any strange problems and painfull debugging make sure ALL paths you use within the system have the same case everywhere, and that they correspond with the actual case of the filesystem. That includes include paths set in webserver config/php.ini, auto load config, runtime include path settings or anywhere else.</span>
+</code></div>
+  </div>
+ </div></div>
+
+ <div class="foot"><a href="http://php.net/manual/add-note.php?sect=function.require-once&amp;redirect=http://php.net/manual/en/function.require-once.php"><img src="./PHP_ require_once - Manual_files/notes-add@2x.png" alt="add a note" width="12" height="12"> <small>add a note</small></a></div>
+</section>    </section><!-- layout-content -->
+        <aside class="layout-menu">
+
+        <ul class="parent-menu-list">
+                                    <li>
+                <a href="http://php.net/manual/en/language.control-structures.php">Control Structures</a>
+
+                                    <ul class="child-menu-list">
+
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.intro.php" title="Introduction">Introduction</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.if.php" title="if">if</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.else.php" title="else">else</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.elseif.php" title="elseif/else if">elseif/else if</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.alternative-syntax.php" title="Alternative syntax for control structures">Alternative syntax for control structures</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.while.php" title="while">while</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.do.while.php" title="do-​while">do-​while</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.for.php" title="for">for</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.foreach.php" title="foreach">foreach</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.break.php" title="break">break</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.continue.php" title="continue">continue</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.switch.php" title="switch">switch</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.declare.php" title="declare">declare</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/function.return.php" title="return">return</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/function.require.php" title="require">require</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/function.include.php" title="include">include</a>
+                        </li>
+                                                <li class="current">
+                            <a href="http://php.net/manual/en/function.require-once.php" title="require_​once">require_​once</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/function.include-once.php" title="include_​once">include_​once</a>
+                        </li>
+                                                <li class="">
+                            <a href="http://php.net/manual/en/control-structures.goto.php" title="goto">goto</a>
+                        </li>
+                        
+                    </ul>
+                
+            </li>
+                        
+                    </ul>
+    </aside>
+
+
+  </div><!-- layout -->
+
+  <footer>
+    <div class="container footer-content">
+      <div class="row-fluid">
+      <ul class="footmenu">
+        <li><a href="http://php.net/copyright.php">Copyright © 2001-2019 The PHP Group</a></li>
+        <li><a href="http://php.net/my.php">My PHP.net</a></li>
+        <li><a href="http://php.net/contact.php">Contact</a></li>
+        <li><a href="http://php.net/sites.php">Other PHP.net sites</a></li>
+        <li><a href="http://php.net/mirrors.php">Mirror sites</a></li>
+        <li><a href="http://php.net/privacy.php">Privacy policy</a></li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+
+    
+ <!-- External and third party libraries. -->
+ <script src="./PHP_ require_once - Manual_files/jquery.min.js.download"></script>
+<script src="./PHP_ require_once - Manual_files/cached(4).php"></script>
+<script src="./PHP_ require_once - Manual_files/cached(5).php"></script>
+<script src="./PHP_ require_once - Manual_files/cached(6).php"></script>
+<script src="./PHP_ require_once - Manual_files/cached(7).php"></script>
+<script src="./PHP_ require_once - Manual_files/cached(8).php"></script>
+<script src="./PHP_ require_once - Manual_files/cached(9).php"></script>
+
+<a id="toTop" href="javascript:;" style="display: inline;"><span id="toTopHover"></span><img width="40" height="40" alt="To Top" src="./PHP_ require_once - Manual_files/to-top@2x.png"></a>
+
+
+
+</body></html>

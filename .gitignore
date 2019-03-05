@@ -58,3 +58,11 @@
 node_modules/
 remove/
 xtras/
+vendor/
+wp/wp-admin/
+wp/wp-includes/
+wp/wp-content/uploads/
+wp/wp-content/plugins/
+
+#files
+wp/wp-config.php

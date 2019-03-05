@@ -4,18 +4,25 @@ require_once(__ROOT__.'/iroportfolio/header.php');
 ?> 
 
     <!-- END nav -->
+    <style>
+      .portfolio_img{
+        border: 1px solid #fff;
+        height: 240px;
+      }
+      .front-gal-grid{
+        padding: 2px;
+      }
+    </style>
 
-
-    <section class="hero-wrap js-fullheight">
+    <section id="inicio" class="hero-wrap js-fullheight">
       <!-- <div class="overlay" style="background-image: url(assets/images/bg_2.jpg);" data-stellar-background-ratio="0.5"></div> -->
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end">
         	<h3 class="v">
-        		<a href="https://vimeo.com/45830194" class="popup-vimeo">
-        			<div class="icon d-flex justify-content-center align-items-center">
+        			<a href="#contact" class="popup-vimeo"><div class="icon d-flex justify-content-center align-items-center">
         				<span class="icon-play"></span>
         			</div>
-        			<span>Scroll Down For More</span> <br>Cut to the chase</a>
+        			<span>Click Here For My Info</span> <br>Contact Me</a>
         	</h3>
           <div class="col-md-12 text-center ftco-animate">
             <!-- <h1 class="mt-5" style="background-image: url(assets/images/bg_1.jpg);" data-stellar-background-ratio="0.5">Quero<br>Labor</h1> -->
@@ -35,338 +42,206 @@ require_once(__ROOT__.'/iroportfolio/header.php');
         </div>
       </div>
     </section>
-    <section id="portfolio" class="ftco-section">
-      <div class="container">
+ 
+<section>
+<iframe frameborder="0" id="tolltip" src="na-pages/timer.html" width="100%" height="600" scrolling="no" style="overflow:hidden;">
+  <p>Your browser does not support iframes.</p></iframe>
+</section>
+
+<section id="resume" class="ftco-section">
+    	<div class="container">
+    		
+        <div class="row justify-content-center">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+             <h2 class="mb-3">Proficiencies</h2>
+          	<span class="subheading">
+          		<i class="db-left"></i>
+          		Please Contact Me for a Free Consultation 
+          		<i class="db-right"></i>
+          	</span>
+           
+          </div>
+        </div>
+        <div class="row justify-content-center mb-5"><a hrec=""></a></div>
         <div class="row justify-content-center mb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
+          <div class="col-md-4 ftco-animate">
+            <p>Leverage on SEO benefitsCustomise the error page to make it resemble the other pages of the site. Provide a site search option or a site map link. This way you encourage your user to keep browsing.Well designed free blog HTML website templates. Handcrafted and built with attention to details on a clean and organize code.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor. skill, skillfulness, expertise, experience, ability, capability, capacity, competence, competency, adeptness, adroitness, excellence, mastery, prowess, professionalism, aptitude, deftness, dexterity, finesse, facility, effectiveness, accomplishment, aptness, expertness, talent; informalknow-how. Try me out. What do you say? I look forward to answering any questions you have. Thank you for taking the time to review this application.</p>
+          </div>
+          <div class="col-md-8 heading-section text-center ftco-animate">
+            <div style="background-image: url(assets/img/proficiency.png); background-position: center; background-repeat: no-repeat; height: 650px; width: 100%px; background-position: center -80;"></div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-4 ftco-animate">
+            <p>My WordPress Dev experience:
+              - Building user interfaces for websites and/or web applications
+              - Designing and developing responsive design themes
+              - Reading writing and traversing long CSS files and making changes via sass media queries to ensure multi-browser compliance.
+            A WordPress developer is one who can make custom plugins and modules for WordPress. WordPress designer (a true one) is able to develop a theme around WordPress. A WordPress expert is someone who is able to do all of it, probably not as well as the specialized listings I previously mentioned and can help you get the end product done by knowing the right plugins and themes for the project…</p>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <p>I've been working with Wordpress since version 2. I started using it as a gateway into programming and learning PHP. Before that my background was exclusively in Graphic Design. Of course, WP has evolved a lot since then, but so have I and have never stopped using it. I know the CMS very well and have worked on things like custom themes, plugins, child-themes, widgets, forms and the Rest API.
+            …A WP expert is someone that understands WP and is familiar with WP core functions and how the entire thing works. Yes, a WP expert is also a PHP developer, but not every PHP developer intimately familiar with WP…
+            </p>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Resume</button>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <p>Developing enterprise level responsive apps
+
+I've been working with Wordpress since version 2. I started using it as a gateway to programming and learning PHP. Before that; my background was exclusively in Graphic Design. Of course, WP has evolved a lot since then, but so have I and have never stopped using it. I know the CMS very well and have worked on things like custom themes, plugins, child-themes, widgets, forms and the Rest API. I use it for building user interfaces for websites and/or web applications. Developing enterprise level responsive apps. I would be more than happy to work with your team on a probation status to see if we're a good fit. </p>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+
+<section id="portfolio" class="ftco-section">
+  
+  <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-3">Portfolio</h2>
             <span class="subheading">
               <i class="db-left"></i>
-              Please See <a href="footnotes.php">Footnotes</a> Section for Details*
+              Help Me Fill This Up
               <i class="db-right"></i>
             </span>
-            <h2 class="mb-3">SEO TAG WORDS HERE</h2>
-            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
           </div>
         </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="img" style="background-image: url(assets/images/trainer-1.jpg);"></div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Head Coach</span>
-                <h3><a href="#">Travor James</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <p></p>
-              </div>
+            <div class="row">
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_1" class="portfolio_img"></div> 
+                </div>
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_2" class="portfolio_img"></div> 
+                </div>
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_3" class="portfolio_img"></div> 
+                </div>
             </div>
-          </div>
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="img" style="background-image: url(assets/images/trainer-2.jpg);"></div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Lead Trainer</span>
-                <h3><a href="#">Leonard Smith</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <p></p>
-              </div>
+            <div class="row"></div>
+            <div class="row">
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_4" class="portfolio_img"></div> 
+                </div>
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_5" class="portfolio_img"></div> 
+                </div>
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_6" class="portfolio_img"></div> 
+                </div>
             </div>
-          </div>
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="img order-xl-last" style="background-image: url(assets/img2/themefisher-biztrox-design_001.png);"></div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Lead Trainer</span>
-                <h3><a href="#">James Buffer</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <p></p>
-              </div>
+            <div class="row"></div>
+            <div class="row">
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_7" class="portfolio_img"></div> 
+                </div>
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_8" class="portfolio_img"></div> 
+                </div>
+                <div class="col-md-4 front-gal-grid">
+                    <div id="fpimg_9" class="portfolio_img"></div> 
+                </div>
             </div>
-          </div>
-          <div class="col-lg-6 d-flex">
-            <div class="coach d-sm-flex align-items-stretch">
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Trainer</span>
-                <h3><a href="#">Maricar Collins</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <p></p>
-              </div>
-              <div class="text py-4 px-5 ftco-animate">
-                <span class="subheading">Trainer</span>
-                <h3><a href="#">Maricar Collins</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <ul class="ftco-social-media d-flex mt-4">
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-                </ul>
-                <p></p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+
+</section>
 
 
-
-
-    <section class="ftco-section">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<span class="subheading">
-          		<i class="db-left"></i>
-          		Please Contact Me for Availability 
-          		<i class="db-right"></i>
-          	</span>
-            <h2 class="mb-3">Resumé</h2>
-            <p>I am always looking for work. Convertion from .psd files to html and then wordpress. Must include psd files in order for offer to be valid.</p>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-8 heading-section text-center ftco-animate">
-            <div style="background-image: url(assets/images/proskills.png); background-position: center; background-repeat: no-repeat; height: 426px; width: 100%px;"></div>
-          </div>
-        </div><div class="row justify-content-center mb-5">
-          <div class="col-md-6 py-5">
-            <div class="program d-flex ftco-animate">
-              <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                <span class="flaticon-gym"></span>
-              </div>
-              <div class="equalize text ml-5 mr-lg-4 text-lg-right">
-                <h3>Web/App Development</h3>
-                <p>I am a creative, passionate, and dedic
-                `ated Web Application Developer.</p>
-              </div>
-            </div>
-            <div class="program d-flex ftco-animate">
-              <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                <span class="flaticon-woman"></span>
-              </div>
-              <div class="equalize text ml-5 mr-lg-4 text-lg-right">
-                <h3>Graphic/Web Design</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              </div>
-            </div>
-            <div class="program d-flex ftco-animate">
-              <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                <span class="flaticon-gym"></span>
-              </div>
-              <div class="equalize text ml-5 mr-lg-4 text-lg-right">
-                <h3>Web/App Development</h3>
-                <p>I am a creative, passionate, and dedicated Web Application Developer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 py-5">
-            <div class="program d-flex ftco-animate">
-              <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                <span class="flaticon-workout"></span>
-              </div>
-              <div class="equalize text ml-5 mr-lg-4 text-lg-right">
-                <h3>Network Adminnistration</h3>
-                <p>IT, Security and Network Administration supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              </div>
-            </div>
-            <div class="program d-flex ftco-animate">
-              <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                <span class="flaticon-meditation"></span>
-              </div>
-              <div class="equalize text ml-5 mr-lg-4 text-lg-right">
-                <h3>Social Media Marketing</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              </div>
-            </div>
-            <div class="program d-flex ftco-animate">
-              <div class="icon d-flex mr-lg-3 justify-content-center align-items-center order-lg-last">
-                <span class="flaticon-stationary-bike"></span>
-              </div>
-              <div class="equalize text ml-5 mr-lg-4 text-lg-right">
-                <h3>FX & Motion Graphics</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-    	</div>
-    </section>
-
-
-
-    <section class="ftco-gallery" style="margin-top: -100px">
-      <div class="container-wrap">
-        <div class="row no-gutters">
-          <div class="col-md-3 ftco-animate">
-            <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-1.jpg);">
-              <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-3 ftco-animate">
-            <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-2.jpg);">
-              <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-3 ftco-animate">
-            <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-3.jpg);">
-              <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-3 ftco-animate">
-            <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(assets/images/gallery-4.jpg);">
-              <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="margin-top: 100px;" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
+     <!-- <section id="freelance" class="ftco-section">
       <div class="container">
         <div class="row justify-content-center">
-        	<div class="col-md-10">
-        		<div class="row">
-		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		              	<strong class="number" data-number="1210">0</strong>
-		              	<span>Git Commits</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		              	<strong class="number" data-number="4560">0</strong>
-		              	<span>Perfect Bodies</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		              	<strong class="number" data-number="570">0</strong>
-		              	<span>Working Hours</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		              	<strong class="number" data-number="900">0</strong>
-		              	<span>Success Stories</span>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </div>
-        </div>
+          <div class="col-md-10 heading-section ftco-animate">
+
+
+            <div class="row">
+                <div class="col-md-1">                      
+</div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-4 order-md-1 text-center text-md-center text-lg-center d-table-cell">
+                            <h3>Column title</h3> 
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+                        </div>
+                        <div class="col-md-4 order-md-1 text-center text-md-center text-lg-center d-lg-inline">
+                            <h3>Column title</h3> 
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+                        </div>
+                        <div class="col-md-4 text-center text-md-center text-lg-center">
+                            <h3>Column title</h3> 
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                </div>
+                <div class="col-md-1">                      
+</div>
+            </div>
+       
+
+            </div></div>
       </div>
-    </section>
+    </section> --> 
 
+
+<!-- <section id="contact" class="ftco-section">       
     
-
-    
-
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">
-          		<i class="db-left"></i>
-          		Read Articles 
-          		<i class="db-right"></i>
-          	</span>
-            <h2 class="mb-3">Recent Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
+    <div class="container text-left">
+            <div class="row">
+                <div class="col-md-2">                      
+</div>
+                <div class="col-md-8">
+                    <form class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+</div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">Last name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">Email 
+                                
+                            </label>
+                            <input type="email" class="form-control" id="email" placeholder="">
+                            <div class="invalid-feedback">
+                                Please enter a valid email address for shipping updates.
+</div>
+                        </div>
+                        <div class="mb-3">Company <span class="text-muted">(Optional)</span>
+                            <br>
+                            <input type="text" class="form-control" id="company" placeholder="" required="">
+                            <div class="invalid-feedback">
+                                Please enter your shipping address.
+</div>
+                        </div>
+                        
+                        <hr class="mb-4">
+                        <hr class="mb-4">
+                        <hr class="mb-4">
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-2">                      
+</div>
+            </div>
         </div>
-        <div class="row d-flex">
-          <div class="col-lg-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
-              </a>
-              <div class="text py-4 d-flex">
-              	<div class="meta text-center">
-              		<span class="day">04</span>
-              		<span class="mos">January</span>
-              		<span class="yr">2019</span>
-              	</div>
-              	<div class="desc">
-	                <h3 class="heading mt-2"><a href="#">Crossfit Harder Workout</a></h3>
-	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
-              </a>
-              <div class="text py-4 d-flex">
-              	<div class="meta text-center">
-              		<span class="day">03</span>
-              		<span class="mos">January</span>
-              		<span class="yr">2019</span>
-              	</div>
-              	<div class="desc">
-	                <h3 class="heading mt-2"><a href="#">Crossfit Harder Workout</a></h3>
-	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
-              </a>
-              <div class="text py-4 d-flex">
-              	<div class="meta text-center">
-              		<span class="day">02</span>
-              		<span class="mos">January</span>
-              		<span class="yr">2019</span>
-              	</div>
-              	<div class="desc">
-	                <h3 class="heading mt-2"><a href="#">Crossfit Harder Workout</a></h3>
-	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-	              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-		
-		
-		
+
+</section> -->
+
+
 
     
 <?php  

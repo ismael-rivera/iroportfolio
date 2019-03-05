@@ -59,13 +59,14 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.php" class="nav-link">De Vuelta al Inicio</a></li>
+	          <li class="nav-item"><a href="#inicio" class="nav-link">De Vuelta al Inicio</a></li>
 			  <!-- <li class="nav-item"><a href="about.php" class="nav-link">My Story So far...</a></li> -->
 	          <!-- <li class="nav-item"><a href="classes.php" class="nav-link">Classes</a></li> -->
 	          <!-- <li class="nav-item"><a href="#portfolio" class="nav-link">What I Can Do</a></li> -->
 	         <!--  <li class="nav-item"><a href="pricing.php" class="nav-link">Pricing</a></li> -->
-	          <li class="nav-item"><a href="blog.php" class="nav-link">Resumé</a></li>
+	          <li class="nav-item"><a href="#resume" class="nav-link">Resumé</a></li>
 	          <!-- <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li> -->
+            <li class="nav-item"><a href="wp/index.php" class="nav-link">Blog</a></li>
 	        </ul>
 	      </div>
 		</div>
